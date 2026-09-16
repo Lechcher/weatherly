@@ -1,0 +1,220 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-08-21T13:38:44.048Z",
+    "flutter_version": "3.44.9",
+    "dart_version": "3.12.2",
+    "total_packages_scanned": 9,
+    "execution_time_ms": 57628
+  },
+  "summary": {
+    "total": 9,
+    "vibrant": 3,
+    "stable": 6,
+    "outdated": 0,
+    "abandoned": 0,
+    "end_of_life": 0
+  },
+  "packages": [
+    {
+      "name": "cupertino_icons",
+      "installed_version": "1.0.9",
+      "latest_version": "1.0.9",
+      "status": "Stable",
+      "vibrancy_score": 57,
+      "pub_points": 160,
+      "stars": 5288,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/cupertino_icons",
+      "repository_url": "https://github.com/flutter/packages/tree/main/third_party/packages/cupertino_icons",
+      "license": "BSD-3-Clause",
+      "archive_size_bytes": 2601144,
+      "bloat_rating": 0,
+      "file_usage_count": 0,
+      "file_usages": []
+    },
+    {
+      "name": "dio",
+      "installed_version": "5.11.0",
+      "latest_version": "5.11.0",
+      "status": "Vibrant",
+      "vibrancy_score": 96,
+      "pub_points": 160,
+      "stars": 12837,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/dio",
+      "repository_url": "https://github.com/cfug/dio/blob/main/dio",
+      "license": "MIT",
+      "archive_size_bytes": 129233,
+      "bloat_rating": 4,
+      "file_usage_count": 1,
+      "file_usages": [
+        {
+          "file_path": "lib/core/weather_repository.dart",
+          "line": 1,
+          "import_line": 1
+        }
+      ]
+    },
+    {
+      "name": "flutter_lints",
+      "installed_version": "6.0.0",
+      "latest_version": "6.0.0",
+      "status": "Stable",
+      "vibrancy_score": 57,
+      "pub_points": 160,
+      "stars": 5288,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/flutter_lints",
+      "repository_url": "https://github.com/flutter/packages/tree/main/packages/flutter_lints",
+      "license": "BSD-3-Clause",
+      "archive_size_bytes": 4980,
+      "bloat_rating": 0,
+      "file_usage_count": 0,
+      "file_usages": []
+    },
+    {
+      "name": "flutter_riverpod",
+      "installed_version": "3.4.2",
+      "latest_version": "3.4.2",
+      "status": "Vibrant",
+      "vibrancy_score": 81.6,
+      "pub_points": 140,
+      "stars": 7372,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/flutter_riverpod",
+      "repository_url": "https://github.com/rrousselGit/riverpod",
+      "license": "MIT",
+      "archive_size_bytes": 58039,
+      "bloat_rating": 3,
+      "file_usage_count": 2,
+      "file_usages": [
+        {
+          "file_path": "lib/screens/weatherly_screen.dart",
+          "line": 2,
+          "import_line": 2
+        },
+        {
+          "file_path": "lib/core/weather_provider.dart",
+          "line": 1,
+          "import_line": 1
+        }
+      ]
+    },
+    {
+      "name": "flutter_skill",
+      "installed_version": "0.9.36",
+      "latest_version": "0.9.36",
+      "status": "Stable",
+      "vibrancy_score": 44.5,
+      "pub_points": 140,
+      "stars": 355,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/flutter_skill",
+      "repository_url": "https://github.com/ai-dashboad/flutter-skill",
+      "license": "MIT",
+      "archive_size_bytes": 467131,
+      "bloat_rating": 7,
+      "file_usage_count": 1,
+      "file_usages": [
+        {
+          "file_path": "lib/main.dart",
+          "line": 3,
+          "import_line": 3
+        }
+      ]
+    },
+    {
+      "name": "go_router",
+      "installed_version": "17.5.0",
+      "latest_version": "17.5.0",
+      "status": "Stable",
+      "vibrancy_score": 61.6,
+      "pub_points": 150,
+      "stars": 5288,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/go_router",
+      "repository_url": "https://github.com/flutter/packages/tree/main/packages/go_router",
+      "license": "BSD-3-Clause",
+      "archive_size_bytes": 329234,
+      "bloat_rating": 5,
+      "file_usage_count": 3,
+      "file_usages": [
+        {
+          "file_path": "lib/app_router.dart",
+          "line": 1,
+          "import_line": 1
+        },
+        {
+          "file_path": "lib/core/main_shell.dart",
+          "line": 2,
+          "import_line": 2
+        },
+        {
+          "file_path": "lib/core/history_backscope.dart",
+          "line": 2,
+          "import_line": 2
+        }
+      ]
+    },
+    {
+      "name": "lottie",
+      "installed_version": "3.5.1",
+      "latest_version": "3.5.1",
+      "status": "Stable",
+      "vibrancy_score": 54.4,
+      "pub_points": 160,
+      "stars": 1295,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/lottie",
+      "repository_url": "https://github.com/xvrh/lottie-flutter",
+      "license": "MIT",
+      "archive_size_bytes": 165128,
+      "bloat_rating": 6,
+      "file_usage_count": 0,
+      "file_usages": []
+    },
+    {
+      "name": "riverpod",
+      "installed_version": "3.4.2",
+      "latest_version": "3.4.2",
+      "status": "Vibrant",
+      "vibrancy_score": 84.4,
+      "pub_points": 160,
+      "stars": 7372,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/riverpod",
+      "repository_url": "https://github.com/rrousselGit/riverpod",
+      "license": "MIT",
+      "archive_size_bytes": 17607088,
+      "bloat_rating": 5,
+      "file_usage_count": 0,
+      "file_usages": []
+    },
+    {
+      "name": "saropa_lints",
+      "installed_version": "14.0.2",
+      "latest_version": "15.1.2",
+      "status": "Stable",
+      "vibrancy_score": 62,
+      "pub_points": 150,
+      "stars": 8,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/saropa_lints",
+      "repository_url": "https://github.com/saropa/saropa_lints",
+      "license": "MIT",
+      "archive_size_bytes": 9404938,
+      "bloat_rating": 10,
+      "file_usage_count": 0,
+      "file_usages": []
+    }
+  ]
+}

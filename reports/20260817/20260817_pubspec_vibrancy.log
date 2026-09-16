@@ -1,0 +1,333 @@
+2026-08-17T13:21:27.437Z  [CACHE]  MISS flutter.releases
+2026-08-17T13:21:27.437Z  [API  ]  GET https://storage.googleapis.com/flutter_infra_release/releases/releases_linux.json
+2026-08-17T13:21:27.507Z  [ERROR]  Failed to fetch Flutter releases
+2026-08-17T13:21:27.507Z  [INFO ]  Scan started — 8 packages
+2026-08-17T13:21:27.508Z  [INFO ]  [1/8] cupertino_icons
+2026-08-17T13:21:27.508Z  [INFO ]  Known issue: active
+2026-08-17T13:21:27.508Z  [CACHE]  MISS pub.info.cupertino_icons
+2026-08-17T13:21:27.508Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons
+2026-08-17T13:21:27.512Z  [CACHE]  MISS pub.metrics.cupertino_icons
+2026-08-17T13:21:27.512Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons/metrics
+2026-08-17T13:21:27.514Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons/score
+2026-08-17T13:21:27.518Z  [CACHE]  HIT  pub.publisher.cupertino_icons
+2026-08-17T13:21:27.518Z  [CACHE]  MISS pub.reverseDeps.cupertino_icons
+2026-08-17T13:21:27.518Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Acupertino_icons
+2026-08-17T13:21:27.520Z  [INFO ]  [2/8] dio
+2026-08-17T13:21:27.520Z  [INFO ]  Known issue: active
+2026-08-17T13:21:27.520Z  [CACHE]  MISS pub.info.dio
+2026-08-17T13:21:27.520Z  [API  ]  GET https://pub.dev/api/packages/dio
+2026-08-17T13:21:27.522Z  [CACHE]  MISS pub.metrics.dio
+2026-08-17T13:21:27.522Z  [API  ]  GET https://pub.dev/api/packages/dio/metrics
+2026-08-17T13:21:27.524Z  [API  ]  GET https://pub.dev/api/packages/dio/score
+2026-08-17T13:21:27.526Z  [CACHE]  HIT  pub.publisher.dio
+2026-08-17T13:21:27.526Z  [CACHE]  MISS pub.reverseDeps.dio
+2026-08-17T13:21:27.526Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Adio
+2026-08-17T13:21:27.529Z  [INFO ]  [3/8] flutter_lints
+2026-08-17T13:21:27.529Z  [INFO ]  Known issue: active
+2026-08-17T13:21:27.529Z  [CACHE]  MISS pub.info.flutter_lints
+2026-08-17T13:21:27.529Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints
+2026-08-17T13:21:27.532Z  [CACHE]  MISS pub.metrics.flutter_lints
+2026-08-17T13:21:27.532Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints/metrics
+2026-08-17T13:21:27.535Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints/score
+2026-08-17T13:21:27.539Z  [CACHE]  HIT  pub.publisher.flutter_lints
+2026-08-17T13:21:27.539Z  [CACHE]  MISS pub.reverseDeps.flutter_lints
+2026-08-17T13:21:27.539Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_lints
+2026-08-17T13:21:27.542Z  [INFO ]  [4/8] flutter_skill
+2026-08-17T13:21:27.542Z  [CACHE]  MISS pub.info.flutter_skill
+2026-08-17T13:21:27.542Z  [API  ]  GET https://pub.dev/api/packages/flutter_skill
+2026-08-17T13:21:27.546Z  [CACHE]  MISS pub.metrics.flutter_skill
+2026-08-17T13:21:27.546Z  [API  ]  GET https://pub.dev/api/packages/flutter_skill/metrics
+2026-08-17T13:21:27.551Z  [API  ]  GET https://pub.dev/api/packages/flutter_skill/score
+2026-08-17T13:21:27.556Z  [CACHE]  HIT  pub.publisher.flutter_skill
+2026-08-17T13:21:27.556Z  [CACHE]  MISS pub.reverseDeps.flutter_skill
+2026-08-17T13:21:27.556Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_skill
+2026-08-17T13:21:27.561Z  [INFO ]  [5/8] go_router
+2026-08-17T13:21:27.561Z  [INFO ]  Known issue: active
+2026-08-17T13:21:27.561Z  [CACHE]  MISS pub.info.go_router
+2026-08-17T13:21:27.561Z  [API  ]  GET https://pub.dev/api/packages/go_router
+2026-08-17T13:21:27.574Z  [CACHE]  MISS pub.metrics.go_router
+2026-08-17T13:21:27.574Z  [API  ]  GET https://pub.dev/api/packages/go_router/metrics
+2026-08-17T13:21:27.578Z  [API  ]  GET https://pub.dev/api/packages/go_router/score
+2026-08-17T13:21:27.580Z  [CACHE]  HIT  pub.publisher.go_router
+2026-08-17T13:21:27.580Z  [CACHE]  MISS pub.reverseDeps.go_router
+2026-08-17T13:21:27.580Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ago_router
+2026-08-17T13:21:27.583Z  [INFO ]  [6/8] mix
+2026-08-17T13:21:27.583Z  [CACHE]  MISS pub.info.mix
+2026-08-17T13:21:27.583Z  [API  ]  GET https://pub.dev/api/packages/mix
+2026-08-17T13:21:27.586Z  [CACHE]  MISS pub.metrics.mix
+2026-08-17T13:21:27.586Z  [API  ]  GET https://pub.dev/api/packages/mix/metrics
+2026-08-17T13:21:27.590Z  [API  ]  GET https://pub.dev/api/packages/mix/score
+2026-08-17T13:21:27.592Z  [CACHE]  HIT  pub.publisher.mix
+2026-08-17T13:21:27.592Z  [CACHE]  MISS pub.reverseDeps.mix
+2026-08-17T13:21:27.592Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Amix
+2026-08-17T13:21:28.022Z  [ERROR]  Failed to fetch package info for cupertino_icons from https://pub.dev
+2026-08-17T13:21:28.023Z  [ERROR]  Failed to fetch metrics for cupertino_icons from https://pub.dev
+2026-08-17T13:21:28.024Z  [ERROR]  Failed to fetch reverse dependency count for cupertino_icons
+2026-08-17T13:21:28.024Z  [CACHE]  MISS pub.archiveSize.cupertino_icons
+2026-08-17T13:21:28.024Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons
+2026-08-17T13:21:28.028Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons
+2026-08-17T13:21:28.085Z  [ERROR]  Failed to fetch package info for dio from https://pub.dev
+2026-08-17T13:21:28.085Z  [ERROR]  Failed to fetch metrics for dio from https://pub.dev
+2026-08-17T13:21:28.086Z  [ERROR]  Failed to fetch reverse dependency count for dio
+2026-08-17T13:21:28.086Z  [CACHE]  MISS pub.archiveSize.dio
+2026-08-17T13:21:28.086Z  [API  ]  GET https://pub.dev/api/packages/dio
+2026-08-17T13:21:28.088Z  [API  ]  GET https://pub.dev/api/packages/dio
+2026-08-17T13:21:28.150Z  [ERROR]  Failed to fetch package info for flutter_lints from https://pub.dev
+2026-08-17T13:21:28.150Z  [ERROR]  Failed to fetch metrics for flutter_lints from https://pub.dev
+2026-08-17T13:21:28.151Z  [ERROR]  Failed to fetch reverse dependency count for flutter_lints
+2026-08-17T13:21:28.151Z  [CACHE]  MISS pub.archiveSize.flutter_lints
+2026-08-17T13:21:28.151Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints
+2026-08-17T13:21:28.154Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints
+2026-08-17T13:21:28.217Z  [ERROR]  Failed to fetch package info for flutter_skill from https://pub.dev
+2026-08-17T13:21:28.217Z  [ERROR]  Failed to fetch metrics for flutter_skill from https://pub.dev
+2026-08-17T13:21:28.218Z  [ERROR]  Failed to fetch reverse dependency count for flutter_skill
+2026-08-17T13:21:28.218Z  [CACHE]  MISS pub.archiveSize.flutter_skill
+2026-08-17T13:21:28.218Z  [API  ]  GET https://pub.dev/api/packages/flutter_skill
+2026-08-17T13:21:28.220Z  [API  ]  GET https://pub.dev/api/packages/flutter_skill
+2026-08-17T13:21:28.271Z  [ERROR]  Failed to fetch package info for go_router from https://pub.dev
+2026-08-17T13:21:28.271Z  [ERROR]  Failed to fetch metrics for go_router from https://pub.dev
+2026-08-17T13:21:28.272Z  [ERROR]  Failed to fetch reverse dependency count for go_router
+2026-08-17T13:21:28.272Z  [CACHE]  MISS pub.archiveSize.go_router
+2026-08-17T13:21:28.272Z  [API  ]  GET https://pub.dev/api/packages/go_router
+2026-08-17T13:21:28.274Z  [API  ]  GET https://pub.dev/api/packages/go_router
+2026-08-17T13:21:28.326Z  [ERROR]  Failed to fetch package info for mix from https://pub.dev
+2026-08-17T13:21:28.326Z  [ERROR]  Failed to fetch metrics for mix from https://pub.dev
+2026-08-17T13:21:28.327Z  [ERROR]  Failed to fetch reverse dependency count for mix
+2026-08-17T13:21:28.327Z  [CACHE]  MISS pub.archiveSize.mix
+2026-08-17T13:21:28.327Z  [API  ]  GET https://pub.dev/api/packages/mix
+2026-08-17T13:21:28.330Z  [API  ]  GET https://pub.dev/api/packages/mix
+2026-08-17T13:21:28.390Z  [SCORE]  cupertino_icons → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.390Z  [INFO ]  cupertino_icons: platforms missing from API, using known issue
+2026-08-17T13:21:28.390Z  [INFO ]  cupertino_icons: pubPoints missing from API, known issue has 150
+2026-08-17T13:21:28.390Z  [INFO ]  [7/8] riverpod
+2026-08-17T13:21:28.390Z  [CACHE]  MISS pub.info.riverpod
+2026-08-17T13:21:28.390Z  [API  ]  GET https://pub.dev/api/packages/riverpod
+2026-08-17T13:21:28.393Z  [CACHE]  MISS pub.metrics.riverpod
+2026-08-17T13:21:28.393Z  [API  ]  GET https://pub.dev/api/packages/riverpod/metrics
+2026-08-17T13:21:28.396Z  [API  ]  GET https://pub.dev/api/packages/riverpod/score
+2026-08-17T13:21:28.400Z  [CACHE]  HIT  pub.publisher.riverpod
+2026-08-17T13:21:28.400Z  [CACHE]  MISS pub.reverseDeps.riverpod
+2026-08-17T13:21:28.400Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ariverpod
+2026-08-17T13:21:28.458Z  [SCORE]  dio → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.458Z  [INFO ]  dio: platforms missing from API, using known issue
+2026-08-17T13:21:28.458Z  [INFO ]  dio: pubPoints missing from API, known issue has 160
+2026-08-17T13:21:28.458Z  [INFO ]  [8/8] saropa_lints
+2026-08-17T13:21:28.458Z  [CACHE]  MISS pub.info.saropa_lints
+2026-08-17T13:21:28.458Z  [API  ]  GET https://pub.dev/api/packages/saropa_lints
+2026-08-17T13:21:28.460Z  [CACHE]  MISS pub.metrics.saropa_lints
+2026-08-17T13:21:28.460Z  [API  ]  GET https://pub.dev/api/packages/saropa_lints/metrics
+2026-08-17T13:21:28.462Z  [API  ]  GET https://pub.dev/api/packages/saropa_lints/score
+2026-08-17T13:21:28.464Z  [CACHE]  HIT  pub.publisher.saropa_lints
+2026-08-17T13:21:28.464Z  [CACHE]  MISS pub.reverseDeps.saropa_lints
+2026-08-17T13:21:28.464Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Asaropa_lints
+2026-08-17T13:21:28.519Z  [SCORE]  flutter_lints → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.519Z  [INFO ]  flutter_lints: platforms missing from API, using known issue
+2026-08-17T13:21:28.519Z  [INFO ]  flutter_lints: pubPoints missing from API, known issue has 160
+2026-08-17T13:21:28.520Z  [SCORE]  flutter_skill → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.520Z  [SCORE]  go_router → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.520Z  [INFO ]  go_router: platforms missing from API, using known issue
+2026-08-17T13:21:28.520Z  [INFO ]  go_router: pubPoints missing from API, known issue has 150
+2026-08-17T13:21:28.521Z  [SCORE]  mix → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.529Z  [ERROR]  Failed to fetch package info for riverpod from https://pub.dev
+2026-08-17T13:21:28.529Z  [ERROR]  Failed to fetch metrics for riverpod from https://pub.dev
+2026-08-17T13:21:28.530Z  [ERROR]  Failed to fetch reverse dependency count for riverpod
+2026-08-17T13:21:28.530Z  [CACHE]  MISS pub.archiveSize.riverpod
+2026-08-17T13:21:28.530Z  [API  ]  GET https://pub.dev/api/packages/riverpod
+2026-08-17T13:21:28.532Z  [API  ]  GET https://pub.dev/api/packages/riverpod
+2026-08-17T13:21:28.575Z  [ERROR]  Failed to fetch package info for saropa_lints from https://pub.dev
+2026-08-17T13:21:28.575Z  [ERROR]  Failed to fetch metrics for saropa_lints from https://pub.dev
+2026-08-17T13:21:28.576Z  [ERROR]  Failed to fetch reverse dependency count for saropa_lints
+2026-08-17T13:21:28.576Z  [CACHE]  MISS pub.archiveSize.saropa_lints
+2026-08-17T13:21:28.576Z  [API  ]  GET https://pub.dev/api/packages/saropa_lints
+2026-08-17T13:21:28.578Z  [API  ]  GET https://pub.dev/api/packages/saropa_lints
+2026-08-17T13:21:28.630Z  [SCORE]  riverpod → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:28.631Z  [SCORE]  saropa_lints → 0 (abandoned) [rv=0 eg=0 pop=0 pt=-5 pq=0]
+2026-08-17T13:21:29.932Z  [ERROR]  Blocker analysis skipped — CLI commands failed — pub outdated: Command failed: dart pub outdated --json --transitive
+Cannot specify both `--json` and `--transitive`
+The json report always includes transitive dependencies.
+
+Usage: dart pub outdated [options]
+-h, --help                         Print this usage information.
+    --[no-]dependency-overrides    Show resolutions with `dependency_overrides`.
+                                   (defaults to on)
+    --[no-]dev-dependencies        Take dev dependencies into account.
+                                   (defaults to on)
+    --json                         Output the results using a json format.
+    --[no-]prereleases             Include prereleases in latest version.
+    --[no-]show-all                Include dependencies that are already
+                                   fulfilling --mode.
+    --[no-]transitive              Show transitive dependencies.
+                                   (defaults to on)
+-C, --directory=<dir>              Run this in the directory <dir>.
+
+Run "dart help" to see global options.
+See https://dart.dev/tools/pub/cmd/pub-outdated for detailed documentation.
+
+2026-08-17T13:21:30.279Z  [CACHE]  MISS pub.archiveSize.async
+2026-08-17T13:21:30.279Z  [API  ]  GET https://pub.dev/api/packages/async
+2026-08-17T13:21:30.281Z  [CACHE]  MISS pub.archiveSize.collection
+2026-08-17T13:21:30.281Z  [API  ]  GET https://pub.dev/api/packages/collection
+2026-08-17T13:21:30.283Z  [CACHE]  MISS pub.archiveSize.meta
+2026-08-17T13:21:30.283Z  [API  ]  GET https://pub.dev/api/packages/meta
+2026-08-17T13:21:30.286Z  [CACHE]  MISS pub.archiveSize.http_parser
+2026-08-17T13:21:30.286Z  [API  ]  GET https://pub.dev/api/packages/http_parser
+2026-08-17T13:21:30.288Z  [CACHE]  MISS pub.archiveSize.source_span
+2026-08-17T13:21:30.288Z  [API  ]  GET https://pub.dev/api/packages/source_span
+2026-08-17T13:21:30.292Z  [CACHE]  MISS pub.archiveSize.path
+2026-08-17T13:21:30.292Z  [API  ]  GET https://pub.dev/api/packages/path
+2026-08-17T13:21:30.295Z  [CACHE]  MISS pub.archiveSize.term_glyph
+2026-08-17T13:21:30.295Z  [API  ]  GET https://pub.dev/api/packages/term_glyph
+2026-08-17T13:21:30.297Z  [CACHE]  MISS pub.archiveSize.string_scanner
+2026-08-17T13:21:30.297Z  [API  ]  GET https://pub.dev/api/packages/string_scanner
+2026-08-17T13:21:30.300Z  [CACHE]  MISS pub.archiveSize.typed_data
+2026-08-17T13:21:30.300Z  [API  ]  GET https://pub.dev/api/packages/typed_data
+2026-08-17T13:21:30.302Z  [CACHE]  MISS pub.archiveSize.mime
+2026-08-17T13:21:30.302Z  [API  ]  GET https://pub.dev/api/packages/mime
+2026-08-17T13:21:30.304Z  [CACHE]  MISS pub.archiveSize.dio_web_adapter
+2026-08-17T13:21:30.304Z  [API  ]  GET https://pub.dev/api/packages/dio_web_adapter
+2026-08-17T13:21:30.306Z  [CACHE]  MISS pub.archiveSize.web
+2026-08-17T13:21:30.306Z  [API  ]  GET https://pub.dev/api/packages/web
+2026-08-17T13:21:30.308Z  [CACHE]  MISS pub.archiveSize.lints
+2026-08-17T13:21:30.308Z  [API  ]  GET https://pub.dev/api/packages/lints
+2026-08-17T13:21:30.309Z  [CACHE]  MISS pub.archiveSize.flutter
+2026-08-17T13:21:30.309Z  [API  ]  GET https://pub.dev/api/packages/flutter
+2026-08-17T13:21:30.311Z  [CACHE]  MISS pub.archiveSize.characters
+2026-08-17T13:21:30.311Z  [API  ]  GET https://pub.dev/api/packages/characters
+2026-08-17T13:21:30.313Z  [CACHE]  MISS pub.archiveSize.material_color_utilities
+2026-08-17T13:21:30.313Z  [API  ]  GET https://pub.dev/api/packages/material_color_utilities
+2026-08-17T13:21:30.314Z  [CACHE]  MISS pub.archiveSize.vector_math
+2026-08-17T13:21:30.314Z  [API  ]  GET https://pub.dev/api/packages/vector_math
+2026-08-17T13:21:30.316Z  [CACHE]  MISS pub.archiveSize.sky_engine
+2026-08-17T13:21:30.316Z  [API  ]  GET https://pub.dev/api/packages/sky_engine
+2026-08-17T13:21:30.318Z  [CACHE]  MISS pub.archiveSize.vm_service
+2026-08-17T13:21:30.318Z  [API  ]  GET https://pub.dev/api/packages/vm_service
+2026-08-17T13:21:30.320Z  [CACHE]  MISS pub.archiveSize.http
+2026-08-17T13:21:30.320Z  [API  ]  GET https://pub.dev/api/packages/http
+2026-08-17T13:21:30.321Z  [CACHE]  MISS pub.archiveSize.logging
+2026-08-17T13:21:30.321Z  [API  ]  GET https://pub.dev/api/packages/logging
+2026-08-17T13:21:30.323Z  [CACHE]  MISS pub.archiveSize.crypto
+2026-08-17T13:21:30.323Z  [API  ]  GET https://pub.dev/api/packages/crypto
+2026-08-17T13:21:30.325Z  [CACHE]  MISS pub.archiveSize.flutter_web_plugins
+2026-08-17T13:21:30.325Z  [API  ]  GET https://pub.dev/api/packages/flutter_web_plugins
+2026-08-17T13:21:30.326Z  [CACHE]  MISS pub.archiveSize.mix_annotations
+2026-08-17T13:21:30.326Z  [API  ]  GET https://pub.dev/api/packages/mix_annotations
+2026-08-17T13:21:30.328Z  [CACHE]  MISS pub.archiveSize.clock
+2026-08-17T13:21:30.328Z  [API  ]  GET https://pub.dev/api/packages/clock
+2026-08-17T13:21:30.330Z  [CACHE]  MISS pub.archiveSize.listen
+2026-08-17T13:21:30.330Z  [API  ]  GET https://pub.dev/api/packages/listen
+2026-08-17T13:21:30.331Z  [CACHE]  MISS pub.archiveSize.stack_trace
+2026-08-17T13:21:30.331Z  [API  ]  GET https://pub.dev/api/packages/stack_trace
+2026-08-17T13:21:30.333Z  [CACHE]  MISS pub.archiveSize.state_notifier
+2026-08-17T13:21:30.333Z  [API  ]  GET https://pub.dev/api/packages/state_notifier
+2026-08-17T13:21:30.335Z  [CACHE]  MISS pub.archiveSize.test
+2026-08-17T13:21:30.335Z  [API  ]  GET https://pub.dev/api/packages/test
+2026-08-17T13:21:30.336Z  [CACHE]  MISS pub.archiveSize.analyzer
+2026-08-17T13:21:30.336Z  [API  ]  GET https://pub.dev/api/packages/analyzer
+2026-08-17T13:21:30.338Z  [CACHE]  MISS pub.archiveSize._fe_analyzer_shared
+2026-08-17T13:21:30.338Z  [API  ]  GET https://pub.dev/api/packages/_fe_analyzer_shared
+2026-08-17T13:21:30.341Z  [CACHE]  MISS pub.archiveSize.convert
+2026-08-17T13:21:30.341Z  [API  ]  GET https://pub.dev/api/packages/convert
+2026-08-17T13:21:30.344Z  [CACHE]  MISS pub.archiveSize.glob
+2026-08-17T13:21:30.344Z  [API  ]  GET https://pub.dev/api/packages/glob
+2026-08-17T13:21:30.347Z  [CACHE]  MISS pub.archiveSize.file
+2026-08-17T13:21:30.347Z  [API  ]  GET https://pub.dev/api/packages/file
+2026-08-17T13:21:30.351Z  [CACHE]  MISS pub.archiveSize.package_config
+2026-08-17T13:21:30.351Z  [API  ]  GET https://pub.dev/api/packages/package_config
+2026-08-17T13:21:30.355Z  [CACHE]  MISS pub.archiveSize.pub_semver
+2026-08-17T13:21:30.355Z  [API  ]  GET https://pub.dev/api/packages/pub_semver
+2026-08-17T13:21:30.358Z  [CACHE]  MISS pub.archiveSize.watcher
+2026-08-17T13:21:30.358Z  [API  ]  GET https://pub.dev/api/packages/watcher
+2026-08-17T13:21:30.360Z  [CACHE]  MISS pub.archiveSize.yaml
+2026-08-17T13:21:30.360Z  [API  ]  GET https://pub.dev/api/packages/yaml
+2026-08-17T13:21:30.362Z  [CACHE]  MISS pub.archiveSize.boolean_selector
+2026-08-17T13:21:30.362Z  [API  ]  GET https://pub.dev/api/packages/boolean_selector
+2026-08-17T13:21:30.363Z  [CACHE]  MISS pub.archiveSize.coverage
+2026-08-17T13:21:30.363Z  [API  ]  GET https://pub.dev/api/packages/coverage
+2026-08-17T13:21:30.365Z  [CACHE]  MISS pub.archiveSize.args
+2026-08-17T13:21:30.365Z  [API  ]  GET https://pub.dev/api/packages/args
+2026-08-17T13:21:30.367Z  [CACHE]  MISS pub.archiveSize.cli_config
+2026-08-17T13:21:30.367Z  [API  ]  GET https://pub.dev/api/packages/cli_config
+2026-08-17T13:21:30.368Z  [CACHE]  MISS pub.archiveSize.source_maps
+2026-08-17T13:21:30.368Z  [API  ]  GET https://pub.dev/api/packages/source_maps
+2026-08-17T13:21:30.370Z  [CACHE]  MISS pub.archiveSize.http_multi_server
+2026-08-17T13:21:30.370Z  [API  ]  GET https://pub.dev/api/packages/http_multi_server
+2026-08-17T13:21:30.372Z  [CACHE]  MISS pub.archiveSize.io
+2026-08-17T13:21:30.372Z  [API  ]  GET https://pub.dev/api/packages/io
+2026-08-17T13:21:30.373Z  [CACHE]  MISS pub.archiveSize.matcher
+2026-08-17T13:21:30.373Z  [API  ]  GET https://pub.dev/api/packages/matcher
+2026-08-17T13:21:30.375Z  [CACHE]  MISS pub.archiveSize.test_api
+2026-08-17T13:21:30.375Z  [API  ]  GET https://pub.dev/api/packages/test_api
+2026-08-17T13:21:30.377Z  [CACHE]  MISS pub.archiveSize.stream_channel
+2026-08-17T13:21:30.377Z  [API  ]  GET https://pub.dev/api/packages/stream_channel
+2026-08-17T13:21:30.378Z  [CACHE]  MISS pub.archiveSize.node_preamble
+2026-08-17T13:21:30.378Z  [API  ]  GET https://pub.dev/api/packages/node_preamble
+2026-08-17T13:21:30.380Z  [CACHE]  MISS pub.archiveSize.pool
+2026-08-17T13:21:30.380Z  [API  ]  GET https://pub.dev/api/packages/pool
+2026-08-17T13:21:30.381Z  [CACHE]  MISS pub.archiveSize.shelf
+2026-08-17T13:21:30.382Z  [API  ]  GET https://pub.dev/api/packages/shelf
+2026-08-17T13:21:30.383Z  [CACHE]  MISS pub.archiveSize.shelf_packages_handler
+2026-08-17T13:21:30.383Z  [API  ]  GET https://pub.dev/api/packages/shelf_packages_handler
+2026-08-17T13:21:30.385Z  [CACHE]  MISS pub.archiveSize.shelf_static
+2026-08-17T13:21:30.385Z  [API  ]  GET https://pub.dev/api/packages/shelf_static
+2026-08-17T13:21:30.387Z  [CACHE]  MISS pub.archiveSize.shelf_web_socket
+2026-08-17T13:21:30.387Z  [API  ]  GET https://pub.dev/api/packages/shelf_web_socket
+2026-08-17T13:21:30.388Z  [CACHE]  MISS pub.archiveSize.web_socket_channel
+2026-08-17T13:21:30.388Z  [API  ]  GET https://pub.dev/api/packages/web_socket_channel
+2026-08-17T13:21:30.391Z  [CACHE]  MISS pub.archiveSize.web_socket
+2026-08-17T13:21:30.391Z  [API  ]  GET https://pub.dev/api/packages/web_socket
+2026-08-17T13:21:30.394Z  [CACHE]  MISS pub.archiveSize.test_core
+2026-08-17T13:21:30.394Z  [API  ]  GET https://pub.dev/api/packages/test_core
+2026-08-17T13:21:30.397Z  [CACHE]  MISS pub.archiveSize.frontend_server_client
+2026-08-17T13:21:30.397Z  [API  ]  GET https://pub.dev/api/packages/frontend_server_client
+2026-08-17T13:21:30.400Z  [CACHE]  MISS pub.archiveSize.source_map_stack_trace
+2026-08-17T13:21:30.400Z  [API  ]  GET https://pub.dev/api/packages/source_map_stack_trace
+2026-08-17T13:21:30.401Z  [CACHE]  MISS pub.archiveSize.webkit_inspection_protocol
+2026-08-17T13:21:30.401Z  [API  ]  GET https://pub.dev/api/packages/webkit_inspection_protocol
+2026-08-17T13:21:30.403Z  [CACHE]  MISS pub.archiveSize.uuid
+2026-08-17T13:21:30.403Z  [API  ]  GET https://pub.dev/api/packages/uuid
+2026-08-17T13:21:30.405Z  [CACHE]  MISS pub.archiveSize.fixnum
+2026-08-17T13:21:30.405Z  [API  ]  GET https://pub.dev/api/packages/fixnum
+2026-08-17T13:21:30.407Z  [CACHE]  MISS pub.archiveSize.analysis_server_plugin
+2026-08-17T13:21:30.407Z  [API  ]  GET https://pub.dev/api/packages/analysis_server_plugin
+2026-08-17T13:21:30.408Z  [CACHE]  MISS pub.archiveSize.analyzer_plugin
+2026-08-17T13:21:30.408Z  [API  ]  GET https://pub.dev/api/packages/analyzer_plugin
+2026-08-17T13:21:30.410Z  [CACHE]  MISS pub.archiveSize.dart_style
+2026-08-17T13:21:30.410Z  [API  ]  GET https://pub.dev/api/packages/dart_style
+2026-08-17T13:21:30.412Z  [CACHE]  MISS pub.archiveSize.yaml_edit
+2026-08-17T13:21:30.412Z  [API  ]  GET https://pub.dev/api/packages/yaml_edit
+2026-08-17T13:21:31.284Z  [INFO ]  Dep graph: 8 direct, 66 transitive, 0 overrides
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.cupertino_icons.1.0.9
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.dio.5.11.0
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.flutter_lints.6.0.0
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.flutter_skill.0.9.36
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.go_router.17.5.0
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.mix.2.1.0
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.riverpod.3.4.2
+2026-08-17T13:21:31.285Z  [CACHE]  MISS osv.vulns.saropa_lints.14.0.2
+2026-08-17T13:21:31.285Z  [API  ]  POST https://api.osv.dev/v1/querybatch
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.cupertino_icons.1.0.9
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.dio.5.11.0
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.flutter_lints.6.0.0
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.flutter_skill.0.9.36
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.go_router.17.5.0
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.mix.2.1.0
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.riverpod.3.4.2
+2026-08-17T13:21:31.287Z  [CACHE]  MISS ghsa.vulns.saropa_lints.14.0.2
+2026-08-17T13:21:31.288Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=cupertino_icons&affects=1.0.9&per_page=100
+2026-08-17T13:21:31.291Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=dio&affects=5.11.0&per_page=100
+2026-08-17T13:21:31.294Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=flutter_lints&affects=6.0.0&per_page=100
+2026-08-17T13:21:31.297Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=flutter_skill&affects=0.9.36&per_page=100
+2026-08-17T13:21:31.300Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=go_router&affects=17.5.0&per_page=100
+2026-08-17T13:21:31.908Z  [ERROR]  OSV batch query error: TypeError: fetch failed
+2026-08-17T13:21:31.908Z  [ERROR]  GitHub Advisory query error for cupertino_icons: TypeError: fetch failed
+2026-08-17T13:21:31.908Z  [ERROR]  GitHub Advisory query error for dio: TypeError: fetch failed
+2026-08-17T13:21:31.908Z  [ERROR]  GitHub Advisory query error for flutter_lints: TypeError: fetch failed
+2026-08-17T13:21:31.909Z  [ERROR]  GitHub Advisory query error for flutter_skill: TypeError: fetch failed
+2026-08-17T13:21:31.909Z  [ERROR]  GitHub Advisory query error for go_router: TypeError: fetch failed
+2026-08-17T13:21:31.909Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=mix&affects=2.1.0&per_page=100
+2026-08-17T13:21:31.911Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=riverpod&affects=3.4.2&per_page=100
+2026-08-17T13:21:31.914Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=saropa_lints&affects=14.0.2&per_page=100
+2026-08-17T13:21:31.970Z  [ERROR]  GitHub Advisory query error for mix: TypeError: fetch failed
+2026-08-17T13:21:31.970Z  [ERROR]  GitHub Advisory query error for riverpod: TypeError: fetch failed
+2026-08-17T13:21:31.971Z  [ERROR]  GitHub Advisory query error for saropa_lints: TypeError: fetch failed
+2026-08-17T13:21:32.585Z  [INFO ]  Scan complete — 5149ms — vibrant:0 stable:0 outdated:0 abandoned:8 eol:0

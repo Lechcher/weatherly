@@ -1,0 +1,791 @@
+2026-08-24T14:51:00.480Z  [CACHE]  HIT  flutter.releases
+2026-08-24T14:51:00.481Z  [INFO ]  Scan started — 11 packages
+2026-08-24T14:51:00.481Z  [INFO ]  [1/11] cupertino_icons
+2026-08-24T14:51:00.481Z  [INFO ]  Known issue: active
+2026-08-24T14:51:00.481Z  [CACHE]  HIT  pub.info.cupertino_icons
+2026-08-24T14:51:00.481Z  [CACHE]  MISS pub.metrics.cupertino_icons
+2026-08-24T14:51:00.481Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons/metrics
+2026-08-24T14:51:00.484Z  [API  ]  GET https://pub.dev/api/packages/cupertino_icons/score
+2026-08-24T14:51:00.485Z  [CACHE]  HIT  pub.publisher.cupertino_icons
+2026-08-24T14:51:00.486Z  [CACHE]  MISS pub.reverseDeps.cupertino_icons
+2026-08-24T14:51:00.486Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Acupertino_icons
+2026-08-24T14:51:00.488Z  [INFO ]  [2/11] dio
+2026-08-24T14:51:00.488Z  [INFO ]  Known issue: active
+2026-08-24T14:51:00.488Z  [CACHE]  HIT  pub.info.dio
+2026-08-24T14:51:00.488Z  [CACHE]  HIT  pub.metrics.dio
+2026-08-24T14:51:00.488Z  [CACHE]  HIT  pub.publisher.dio
+2026-08-24T14:51:00.488Z  [CACHE]  MISS pub.reverseDeps.dio
+2026-08-24T14:51:00.488Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Adio
+2026-08-24T14:51:00.491Z  [INFO ]  [3/11] flutter_launcher_icons
+2026-08-24T14:51:00.491Z  [INFO ]  Known issue: active
+2026-08-24T14:51:00.491Z  [CACHE]  HIT  pub.info.flutter_launcher_icons
+2026-08-24T14:51:00.491Z  [CACHE]  HIT  pub.metrics.flutter_launcher_icons
+2026-08-24T14:51:00.491Z  [CACHE]  HIT  pub.publisher.flutter_launcher_icons
+2026-08-24T14:51:00.491Z  [CACHE]  MISS pub.reverseDeps.flutter_launcher_icons
+2026-08-24T14:51:00.491Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_launcher_icons
+2026-08-24T14:51:00.494Z  [INFO ]  [4/11] flutter_lints
+2026-08-24T14:51:00.494Z  [INFO ]  Known issue: active
+2026-08-24T14:51:00.494Z  [CACHE]  HIT  pub.info.flutter_lints
+2026-08-24T14:51:00.494Z  [CACHE]  HIT  pub.metrics.flutter_lints
+2026-08-24T14:51:00.494Z  [CACHE]  HIT  pub.publisher.flutter_lints
+2026-08-24T14:51:00.494Z  [CACHE]  MISS pub.reverseDeps.flutter_lints
+2026-08-24T14:51:00.494Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_lints
+2026-08-24T14:51:00.496Z  [INFO ]  [5/11] flutter_riverpod
+2026-08-24T14:51:00.496Z  [INFO ]  Known issue: active
+2026-08-24T14:51:00.496Z  [CACHE]  HIT  pub.info.flutter_riverpod
+2026-08-24T14:51:00.496Z  [CACHE]  HIT  pub.metrics.flutter_riverpod
+2026-08-24T14:51:00.496Z  [CACHE]  HIT  pub.publisher.flutter_riverpod
+2026-08-24T14:51:00.496Z  [CACHE]  MISS pub.reverseDeps.flutter_riverpod
+2026-08-24T14:51:00.496Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_riverpod
+2026-08-24T14:51:00.498Z  [INFO ]  [6/11] flutter_svg
+2026-08-24T14:51:00.498Z  [INFO ]  Known issue: active
+2026-08-24T14:51:00.498Z  [CACHE]  HIT  pub.info.flutter_svg
+2026-08-24T14:51:00.498Z  [CACHE]  HIT  pub.metrics.flutter_svg
+2026-08-24T14:51:00.498Z  [CACHE]  HIT  pub.publisher.flutter_svg
+2026-08-24T14:51:00.498Z  [CACHE]  MISS pub.reverseDeps.flutter_svg
+2026-08-24T14:51:00.498Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_svg
+2026-08-24T14:51:01.534Z  [API  ]  200 OK (1048ms)
+2026-08-24T14:51:01.741Z  [API  ]  200 OK (1260ms)
+2026-08-24T14:51:01.752Z  [API  ]  200 OK (1268ms)
+2026-08-24T14:51:01.790Z  [API  ]  200 OK (1299ms)
+2026-08-24T14:51:02.048Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T14:51:02.048Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T14:51:02.049Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T14:51:02.048Z&per_page=100
+2026-08-24T14:51:02.049Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T14:51:02.049Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:02.049Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T14:51:02.123Z  [CACHE]  MISS gh.fluttercommunity.flutter_launcher_icons
+2026-08-24T14:51:02.123Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons
+2026-08-24T14:51:02.123Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/issues?state=closed&since=2026-05-26T14:51:02.123Z&per_page=100
+2026-08-24T14:51:02.123Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/pulls?state=closed&per_page=100
+2026-08-24T14:51:02.123Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:02.123Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/pulls?state=open&per_page=100
+2026-08-24T14:51:02.289Z  [API  ]  200 OK (1801ms)
+2026-08-24T14:51:02.321Z  [CACHE]  HIT  gh.cfug.dio
+2026-08-24T14:51:02.321Z  [CACHE]  HIT  pub.archiveSize.dio
+2026-08-24T14:51:02.324Z  [CACHE]  HIT  pub.tarball.v4zqir
+2026-08-24T14:51:02.757Z  [API  ]  200 OK (2263ms)
+2026-08-24T14:51:02.791Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T14:51:02.791Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T14:51:02.791Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T14:51:02.791Z&per_page=100
+2026-08-24T14:51:02.791Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T14:51:02.791Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:02.791Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T14:51:02.867Z  [API  ]  200 OK (2369ms)
+2026-08-24T14:51:02.900Z  [API  ]  200 OK (2404ms)
+2026-08-24T14:51:02.936Z  [CACHE]  HIT  gh.rrousselGit.riverpod
+2026-08-24T14:51:02.936Z  [CACHE]  HIT  pub.archiveSize.flutter_riverpod
+2026-08-24T14:51:02.939Z  [CACHE]  HIT  pub.tarball.vc4vn3
+2026-08-24T14:51:03.072Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T14:51:03.072Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T14:51:03.072Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T14:51:03.072Z&per_page=100
+2026-08-24T14:51:03.072Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T14:51:03.072Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:03.072Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T14:51:03.959Z  [SCORE]  flutter_riverpod → 86.3 (vibrant) [rv=100 eg=67.94444444444444 pop=93.75 pt=-5 pq=8.75]
+2026-08-24T14:51:03.959Z  [INFO ]  [7/11] go_router
+2026-08-24T14:51:03.959Z  [INFO ]  Known issue: active
+2026-08-24T14:51:03.959Z  [CACHE]  HIT  pub.info.go_router
+2026-08-24T14:51:03.959Z  [CACHE]  HIT  pub.metrics.go_router
+2026-08-24T14:51:03.959Z  [CACHE]  HIT  pub.publisher.go_router
+2026-08-24T14:51:03.959Z  [CACHE]  MISS pub.reverseDeps.go_router
+2026-08-24T14:51:03.959Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ago_router
+2026-08-24T14:51:04.196Z  [API  ]  403 rate limit exceeded (1405ms)
+2026-08-24T14:51:04.196Z  [API  ]  403 rate limit exceeded (1405ms)
+2026-08-24T14:51:04.196Z  [API  ]  403 rate limit exceeded (1405ms)
+2026-08-24T14:51:04.196Z  [API  ]  403 rate limit exceeded (1405ms)
+2026-08-24T14:51:04.196Z  [API  ]  403 rate limit exceeded (1405ms)
+2026-08-24T14:51:04.196Z  [CACHE]  HIT  pub.archiveSize.flutter_lints
+2026-08-24T14:51:04.196Z  [CACHE]  HIT  pub.tarball.z7ll8h
+2026-08-24T14:51:04.197Z  [SCORE]  flutter_lints → 12.5 (outdated) [rv=0 eg=0 pop=50 pt=-5 pq=10]
+2026-08-24T14:51:04.197Z  [CACHE]  MISS pub.search.lints
+2026-08-24T14:51:04.198Z  [API  ]  GET https://pub.dev/api/search?q=topic%3Alints&sort=popularity
+2026-08-24T14:51:04.468Z  [API  ]  200 OK (509ms)
+2026-08-24T14:51:04.476Z  [API  ]  403 rate limit exceeded (1404ms)
+2026-08-24T14:51:04.476Z  [API  ]  403 rate limit exceeded (1404ms)
+2026-08-24T14:51:04.476Z  [API  ]  403 rate limit exceeded (1404ms)
+2026-08-24T14:51:04.476Z  [API  ]  403 rate limit exceeded (1404ms)
+2026-08-24T14:51:04.476Z  [API  ]  403 rate limit exceeded (1404ms)
+2026-08-24T14:51:04.476Z  [CACHE]  HIT  pub.archiveSize.flutter_svg
+2026-08-24T14:51:04.476Z  [CACHE]  HIT  pub.tarball.3nod58
+2026-08-24T14:51:04.478Z  [SCORE]  flutter_svg → 64.5 (stable) [rv=70.68493150684931 eg=35.342465753424655 pop=50 pt=-5 pq=10]
+2026-08-24T14:51:04.478Z  [INFO ]  [8/11] lottie
+2026-08-24T14:51:04.478Z  [INFO ]  Known issue: active
+2026-08-24T14:51:04.478Z  [CACHE]  HIT  pub.info.lottie
+2026-08-24T14:51:04.478Z  [CACHE]  HIT  pub.metrics.lottie
+2026-08-24T14:51:04.478Z  [CACHE]  HIT  pub.publisher.lottie
+2026-08-24T14:51:04.478Z  [CACHE]  MISS pub.reverseDeps.lottie
+2026-08-24T14:51:04.478Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Alottie
+2026-08-24T14:51:04.483Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T14:51:04.483Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T14:51:04.483Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T14:51:04.483Z&per_page=100
+2026-08-24T14:51:04.483Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T14:51:04.483Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:04.483Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T14:51:04.507Z  [API  ]  200 OK (309ms)
+2026-08-24T14:51:04.691Z  [SCORE]  dio → 95.6 (vibrant) [rv=98.5 eg=59.5 pop=100 pt=-5 pq=10]
+2026-08-24T14:51:04.692Z  [INFO ]  [9/11] riverpod
+2026-08-24T14:51:04.692Z  [CACHE]  HIT  pub.info.riverpod
+2026-08-24T14:51:04.692Z  [CACHE]  HIT  pub.metrics.riverpod
+2026-08-24T14:51:04.692Z  [CACHE]  HIT  pub.publisher.riverpod
+2026-08-24T14:51:04.692Z  [CACHE]  MISS pub.reverseDeps.riverpod
+2026-08-24T14:51:04.692Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ariverpod
+2026-08-24T14:51:04.710Z  [API  ]  403 rate limit exceeded (2587ms)
+2026-08-24T14:51:04.710Z  [API  ]  403 rate limit exceeded (2587ms)
+2026-08-24T14:51:04.710Z  [API  ]  403 rate limit exceeded (2587ms)
+2026-08-24T14:51:04.710Z  [API  ]  403 rate limit exceeded (2587ms)
+2026-08-24T14:51:04.710Z  [API  ]  403 rate limit exceeded (2587ms)
+2026-08-24T14:51:04.710Z  [CACHE]  HIT  pub.archiveSize.flutter_launcher_icons
+2026-08-24T14:51:04.712Z  [CACHE]  MISS pub.tarball.mbw4oz
+2026-08-24T14:51:04.712Z  [API  ]  GET https://pub.dev/api/archives/flutter_launcher_icons-0.14.4.tar.gz
+2026-08-24T14:51:04.750Z  [API  ]  403 rate limit exceeded (267ms)
+2026-08-24T14:51:04.750Z  [API  ]  403 rate limit exceeded (267ms)
+2026-08-24T14:51:04.750Z  [API  ]  403 rate limit exceeded (267ms)
+2026-08-24T14:51:04.750Z  [API  ]  403 rate limit exceeded (267ms)
+2026-08-24T14:51:04.750Z  [API  ]  403 rate limit exceeded (267ms)
+2026-08-24T14:51:04.750Z  [CACHE]  HIT  pub.archiveSize.go_router
+2026-08-24T14:51:04.750Z  [CACHE]  HIT  pub.tarball.tp3hdt
+2026-08-24T14:51:04.753Z  [SCORE]  go_router → 86.6 (vibrant) [rv=96.43835616438356 eg=48.21917808219178 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T14:51:04.754Z  [INFO ]  [10/11] saropa_lints
+2026-08-24T14:51:04.754Z  [CACHE]  HIT  pub.info.saropa_lints
+2026-08-24T14:51:04.754Z  [CACHE]  HIT  pub.metrics.saropa_lints
+2026-08-24T14:51:04.754Z  [CACHE]  HIT  pub.publisher.saropa_lints
+2026-08-24T14:51:04.754Z  [CACHE]  MISS pub.reverseDeps.saropa_lints
+2026-08-24T14:51:04.754Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Asaropa_lints
+2026-08-24T14:51:04.857Z  [API  ]  200 OK (379ms)
+2026-08-24T14:51:04.917Z  [CACHE]  MISS gh.xvrh.lottie-flutter
+2026-08-24T14:51:04.917Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter
+2026-08-24T14:51:04.917Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/issues?state=closed&since=2026-05-26T14:51:04.917Z&per_page=100
+2026-08-24T14:51:04.917Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/pulls?state=closed&per_page=100
+2026-08-24T14:51:04.917Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:04.917Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/pulls?state=open&per_page=100
+2026-08-24T14:51:05.205Z  [API  ]  403 rate limit exceeded (288ms)
+2026-08-24T14:51:05.205Z  [API  ]  403 rate limit exceeded (288ms)
+2026-08-24T14:51:05.205Z  [API  ]  403 rate limit exceeded (288ms)
+2026-08-24T14:51:05.205Z  [API  ]  403 rate limit exceeded (288ms)
+2026-08-24T14:51:05.205Z  [API  ]  403 rate limit exceeded (288ms)
+2026-08-24T14:51:05.205Z  [CACHE]  HIT  pub.archiveSize.lottie
+2026-08-24T14:51:05.205Z  [CACHE]  HIT  pub.tarball.4owc4s
+2026-08-24T14:51:05.206Z  [SCORE]  lottie → 78.5 (vibrant) [rv=87.12328767123287 eg=43.56164383561644 pop=50 pt=-5 pq=10]
+2026-08-24T14:51:05.206Z  [INFO ]  [11/11] vector_graphics
+2026-08-24T14:51:05.206Z  [CACHE]  HIT  pub.info.vector_graphics
+2026-08-24T14:51:05.206Z  [CACHE]  MISS pub.metrics.vector_graphics
+2026-08-24T14:51:05.206Z  [API  ]  GET https://pub.dev/api/packages/vector_graphics/metrics
+2026-08-24T14:51:05.208Z  [API  ]  GET https://pub.dev/api/packages/vector_graphics/score
+2026-08-24T14:51:05.210Z  [CACHE]  HIT  pub.publisher.vector_graphics
+2026-08-24T14:51:05.210Z  [CACHE]  MISS pub.reverseDeps.vector_graphics
+2026-08-24T14:51:05.210Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Avector_graphics
+2026-08-24T14:51:05.517Z  [API  ]  200 OK (309ms)
+2026-08-24T14:51:05.569Z  [API  ]  200 OK (363ms)
+2026-08-24T14:51:05.603Z  [API  ]  200 OK (393ms)
+2026-08-24T14:51:05.614Z  [API  ]  200 OK (902ms)
+2026-08-24T14:51:05.671Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T14:51:05.671Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T14:51:05.671Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T14:51:05.671Z&per_page=100
+2026-08-24T14:51:05.671Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T14:51:05.671Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:05.671Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T14:51:05.685Z  [API  ]  200 OK (993ms)
+2026-08-24T14:51:05.745Z  [API  ]  403 rate limit exceeded (3696ms)
+2026-08-24T14:51:05.745Z  [API  ]  403 rate limit exceeded (3696ms)
+2026-08-24T14:51:05.745Z  [API  ]  403 rate limit exceeded (3696ms)
+2026-08-24T14:51:05.745Z  [API  ]  403 rate limit exceeded (3696ms)
+2026-08-24T14:51:05.745Z  [API  ]  403 rate limit exceeded (3696ms)
+2026-08-24T14:51:05.745Z  [CACHE]  MISS pub.archiveSize.cupertino_icons
+2026-08-24T14:51:05.745Z  [API  ]  HEAD https://pub.dev/api/archives/cupertino_icons-1.0.9.tar.gz
+2026-08-24T14:51:05.748Z  [CACHE]  HIT  pub.tarball.oijvck
+2026-08-24T14:51:05.935Z  [CACHE]  HIT  gh.rrousselGit.riverpod
+2026-08-24T14:51:05.935Z  [CACHE]  HIT  pub.archiveSize.riverpod
+2026-08-24T14:51:05.937Z  [CACHE]  HIT  pub.tarball.4u7372
+2026-08-24T14:51:05.945Z  [API  ]  403 rate limit exceeded (274ms)
+2026-08-24T14:51:05.945Z  [API  ]  403 rate limit exceeded (274ms)
+2026-08-24T14:51:05.945Z  [API  ]  403 rate limit exceeded (274ms)
+2026-08-24T14:51:05.945Z  [API  ]  403 rate limit exceeded (274ms)
+2026-08-24T14:51:05.945Z  [API  ]  403 rate limit exceeded (274ms)
+2026-08-24T14:51:05.946Z  [CACHE]  HIT  pub.archiveSize.vector_graphics
+2026-08-24T14:51:05.947Z  [CACHE]  MISS pub.tarball.4gehet
+2026-08-24T14:51:05.947Z  [API  ]  GET https://pub.dev/api/archives/vector_graphics-1.2.3.tar.gz
+2026-08-24T14:51:06.083Z  [API  ]  200 OK (338ms)
+2026-08-24T14:51:06.132Z  [SCORE]  cupertino_icons → 53.3 (stable) [rv=58.35616438356164 eg=29.17808219178082 pop=50 pt=-5 pq=10]
+2026-08-24T14:51:06.160Z  [API  ]  200 OK (1406ms)
+2026-08-24T14:51:06.297Z  [SCORE]  riverpod → 88.2 (vibrant) [rv=100 eg=67.94444444444444 pop=100 pt=-5 pq=10]
+2026-08-24T14:51:06.312Z  [API  ]  200 OK (365ms)
+2026-08-24T14:51:06.439Z  [CACHE]  MISS gh.saropa.saropa_lints
+2026-08-24T14:51:06.439Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints
+2026-08-24T14:51:06.439Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/issues?state=closed&since=2026-05-26T14:51:06.439Z&per_page=100
+2026-08-24T14:51:06.439Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/pulls?state=closed&per_page=100
+2026-08-24T14:51:06.439Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T14:51:06.439Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/pulls?state=open&per_page=100
+2026-08-24T14:51:06.719Z  [API  ]  403 rate limit exceeded (280ms)
+2026-08-24T14:51:06.719Z  [API  ]  403 rate limit exceeded (280ms)
+2026-08-24T14:51:06.719Z  [API  ]  403 rate limit exceeded (280ms)
+2026-08-24T14:51:06.719Z  [API  ]  403 rate limit exceeded (280ms)
+2026-08-24T14:51:06.719Z  [API  ]  403 rate limit exceeded (280ms)
+2026-08-24T14:51:06.719Z  [CACHE]  HIT  pub.archiveSize.saropa_lints
+2026-08-24T14:51:06.719Z  [CACHE]  HIT  pub.tarball.npgr1p
+2026-08-24T14:51:06.721Z  [SCORE]  saropa_lints → 83.7 (vibrant) [rv=99.45205479452055 eg=49.726027397260275 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T14:51:12.761Z  [SCORE]  flutter_launcher_icons → 9.1 (outdated) [rv=0 eg=0 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T14:51:15.901Z  [SCORE]  vector_graphics → 79.7 (vibrant) [rv=93.6986301369863 eg=46.84931506849315 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T14:51:17.121Z  [ERROR]  Blocker analysis skipped — CLI commands failed — pub outdated: Command failed: dart pub outdated --json --transitive
+Cannot specify both `--json` and `--transitive`
+The json report always includes transitive dependencies.
+
+Usage: dart pub outdated [options]
+-h, --help                         Print this usage information.
+    --[no-]dependency-overrides    Show resolutions with `dependency_overrides`.
+                                   (defaults to on)
+    --[no-]dev-dependencies        Take dev dependencies into account.
+                                   (defaults to on)
+    --json                         Output the results using a json format.
+    --[no-]prereleases             Include prereleases in latest version.
+    --[no-]show-all                Include dependencies that are already
+                                   fulfilling --mode.
+    --[no-]transitive              Show transitive dependencies.
+                                   (defaults to on)
+-C, --directory=<dir>              Run this in the directory <dir>.
+
+Run "dart help" to see global options.
+See https://dart.dev/tools/pub/cmd/pub-outdated for detailed documentation.
+
+2026-08-24T14:51:18.190Z  [CACHE]  HIT  pub.archiveSize.async
+2026-08-24T14:51:18.190Z  [CACHE]  MISS pub.archiveSize.collection
+2026-08-24T14:51:18.190Z  [API  ]  GET https://pub.dev/api/packages/collection
+2026-08-24T14:51:18.192Z  [CACHE]  HIT  pub.archiveSize.meta
+2026-08-24T14:51:18.192Z  [CACHE]  HIT  pub.archiveSize.http_parser
+2026-08-24T14:51:18.192Z  [CACHE]  HIT  pub.archiveSize.source_span
+2026-08-24T14:51:18.192Z  [CACHE]  MISS pub.archiveSize.path
+2026-08-24T14:51:18.192Z  [API  ]  GET https://pub.dev/api/packages/path
+2026-08-24T14:51:18.194Z  [CACHE]  MISS pub.archiveSize.term_glyph
+2026-08-24T14:51:18.194Z  [API  ]  GET https://pub.dev/api/packages/term_glyph
+2026-08-24T14:51:18.196Z  [CACHE]  HIT  pub.archiveSize.string_scanner
+2026-08-24T14:51:18.196Z  [CACHE]  MISS pub.archiveSize.typed_data
+2026-08-24T14:51:18.196Z  [API  ]  GET https://pub.dev/api/packages/typed_data
+2026-08-24T14:51:18.197Z  [CACHE]  MISS pub.archiveSize.mime
+2026-08-24T14:51:18.197Z  [API  ]  GET https://pub.dev/api/packages/mime
+2026-08-24T14:51:18.199Z  [CACHE]  HIT  pub.archiveSize.dio_web_adapter
+2026-08-24T14:51:18.199Z  [CACHE]  HIT  pub.archiveSize.web
+2026-08-24T14:51:18.199Z  [CACHE]  HIT  pub.archiveSize.args
+2026-08-24T14:51:18.199Z  [CACHE]  HIT  pub.archiveSize.checked_yaml
+2026-08-24T14:51:18.199Z  [CACHE]  HIT  pub.archiveSize.json_annotation
+2026-08-24T14:51:18.199Z  [CACHE]  HIT  pub.archiveSize.yaml
+2026-08-24T14:51:18.199Z  [CACHE]  MISS pub.archiveSize.cli_util
+2026-08-24T14:51:18.199Z  [API  ]  GET https://pub.dev/api/packages/cli_util
+2026-08-24T14:51:18.201Z  [CACHE]  HIT  pub.archiveSize.image
+2026-08-24T14:51:18.201Z  [CACHE]  MISS pub.archiveSize.archive
+2026-08-24T14:51:18.201Z  [API  ]  GET https://pub.dev/api/packages/archive
+2026-08-24T14:51:18.203Z  [CACHE]  MISS pub.archiveSize.posix
+2026-08-24T14:51:18.203Z  [API  ]  GET https://pub.dev/api/packages/posix
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.ffi
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.lints
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.flutter
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.characters
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.material_color_utilities
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.vector_math
+2026-08-24T14:51:18.207Z  [CACHE]  HIT  pub.archiveSize.sky_engine
+2026-08-24T14:51:18.207Z  [CACHE]  MISS pub.archiveSize.flutter_test
+2026-08-24T14:51:18.207Z  [API  ]  GET https://pub.dev/api/packages/flutter_test
+2026-08-24T14:51:18.209Z  [CACHE]  HIT  pub.archiveSize.test_api
+2026-08-24T14:51:18.209Z  [CACHE]  HIT  pub.archiveSize.boolean_selector
+2026-08-24T14:51:18.209Z  [CACHE]  MISS pub.archiveSize.stack_trace
+2026-08-24T14:51:18.209Z  [API  ]  GET https://pub.dev/api/packages/stack_trace
+2026-08-24T14:51:18.211Z  [CACHE]  HIT  pub.archiveSize.stream_channel
+2026-08-24T14:51:18.211Z  [CACHE]  HIT  pub.archiveSize.matcher
+2026-08-24T14:51:18.211Z  [CACHE]  HIT  pub.archiveSize.fake_async
+2026-08-24T14:51:18.211Z  [CACHE]  MISS pub.archiveSize.clock
+2026-08-24T14:51:18.211Z  [API  ]  GET https://pub.dev/api/packages/clock
+2026-08-24T14:51:18.213Z  [CACHE]  HIT  pub.archiveSize.leak_tracker_flutter_testing
+2026-08-24T14:51:18.213Z  [CACHE]  HIT  pub.archiveSize.leak_tracker
+2026-08-24T14:51:18.213Z  [CACHE]  MISS pub.archiveSize.vm_service
+2026-08-24T14:51:18.213Z  [API  ]  GET https://pub.dev/api/packages/vm_service
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.leak_tracker_testing
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.listen
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.state_notifier
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.test
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.analyzer
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize._fe_analyzer_shared
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.convert
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.crypto
+2026-08-24T14:51:18.215Z  [CACHE]  HIT  pub.archiveSize.glob
+2026-08-24T14:51:18.215Z  [CACHE]  MISS pub.archiveSize.file
+2026-08-24T14:51:18.215Z  [API  ]  GET https://pub.dev/api/packages/file
+2026-08-24T14:51:18.217Z  [CACHE]  MISS pub.archiveSize.package_config
+2026-08-24T14:51:18.217Z  [API  ]  GET https://pub.dev/api/packages/package_config
+2026-08-24T14:51:18.218Z  [CACHE]  HIT  pub.archiveSize.pub_semver
+2026-08-24T14:51:18.218Z  [CACHE]  HIT  pub.archiveSize.watcher
+2026-08-24T14:51:18.218Z  [CACHE]  HIT  pub.archiveSize.coverage
+2026-08-24T14:51:18.218Z  [CACHE]  HIT  pub.archiveSize.cli_config
+2026-08-24T14:51:18.218Z  [CACHE]  MISS pub.archiveSize.logging
+2026-08-24T14:51:18.218Z  [API  ]  GET https://pub.dev/api/packages/logging
+2026-08-24T14:51:18.220Z  [CACHE]  HIT  pub.archiveSize.source_maps
+2026-08-24T14:51:18.220Z  [CACHE]  HIT  pub.archiveSize.http_multi_server
+2026-08-24T14:51:18.220Z  [CACHE]  HIT  pub.archiveSize.io
+2026-08-24T14:51:18.220Z  [CACHE]  MISS pub.archiveSize.node_preamble
+2026-08-24T14:51:18.220Z  [API  ]  GET https://pub.dev/api/packages/node_preamble
+2026-08-24T14:51:18.222Z  [CACHE]  HIT  pub.archiveSize.pool
+2026-08-24T14:51:18.222Z  [CACHE]  HIT  pub.archiveSize.shelf
+2026-08-24T14:51:18.222Z  [CACHE]  HIT  pub.archiveSize.shelf_packages_handler
+2026-08-24T14:51:18.222Z  [CACHE]  HIT  pub.archiveSize.shelf_static
+2026-08-24T14:51:18.222Z  [CACHE]  HIT  pub.archiveSize.shelf_web_socket
+2026-08-24T14:51:18.222Z  [CACHE]  HIT  pub.archiveSize.web_socket_channel
+2026-08-24T14:51:18.222Z  [CACHE]  MISS pub.archiveSize.web_socket
+2026-08-24T14:51:18.222Z  [API  ]  GET https://pub.dev/api/packages/web_socket
+2026-08-24T14:51:18.224Z  [CACHE]  HIT  pub.archiveSize.test_core
+2026-08-24T14:51:18.224Z  [CACHE]  HIT  pub.archiveSize.frontend_server_client
+2026-08-24T14:51:18.224Z  [CACHE]  HIT  pub.archiveSize.source_map_stack_trace
+2026-08-24T14:51:18.224Z  [CACHE]  HIT  pub.archiveSize.webkit_inspection_protocol
+2026-08-24T14:51:18.224Z  [CACHE]  MISS pub.archiveSize.uuid
+2026-08-24T14:51:18.224Z  [API  ]  GET https://pub.dev/api/packages/uuid
+2026-08-24T14:51:18.227Z  [CACHE]  HIT  pub.archiveSize.fixnum
+2026-08-24T14:51:18.227Z  [CACHE]  HIT  pub.archiveSize.http
+2026-08-24T14:51:18.227Z  [CACHE]  HIT  pub.archiveSize.vector_graphics_codec
+2026-08-24T14:51:18.227Z  [CACHE]  HIT  pub.archiveSize.vector_graphics_compiler
+2026-08-24T14:51:18.227Z  [CACHE]  HIT  pub.archiveSize.path_parsing
+2026-08-24T14:51:18.227Z  [CACHE]  HIT  pub.archiveSize.xml
+2026-08-24T14:51:18.227Z  [CACHE]  MISS pub.archiveSize.petitparser
+2026-08-24T14:51:18.227Z  [API  ]  GET https://pub.dev/api/packages/petitparser
+2026-08-24T14:51:18.229Z  [CACHE]  MISS pub.archiveSize.flutter_web_plugins
+2026-08-24T14:51:18.229Z  [API  ]  GET https://pub.dev/api/packages/flutter_web_plugins
+2026-08-24T14:51:18.232Z  [CACHE]  MISS pub.archiveSize.analysis_server_plugin
+2026-08-24T14:51:18.232Z  [API  ]  GET https://pub.dev/api/packages/analysis_server_plugin
+2026-08-24T14:51:18.234Z  [CACHE]  HIT  pub.archiveSize.analyzer_plugin
+2026-08-24T14:51:18.234Z  [CACHE]  HIT  pub.archiveSize.dart_style
+2026-08-24T14:51:18.234Z  [CACHE]  HIT  pub.archiveSize.yaml_edit
+2026-08-24T14:51:18.528Z  [API  ]  200 OK (336ms)
+2026-08-24T14:51:18.530Z  [API  ]  200 OK (336ms)
+2026-08-24T14:51:18.531Z  [API  ]  HEAD https://pub.dev/api/archives/term_glyph-1.2.2.tar.gz
+2026-08-24T14:51:18.534Z  [API  ]  200 OK (338ms)
+2026-08-24T14:51:18.534Z  [API  ]  200 OK (344ms)
+2026-08-24T14:51:18.567Z  [API  ]  HEAD https://pub.dev/api/archives/typed_data-1.4.0.tar.gz
+2026-08-24T14:51:18.571Z  [API  ]  HEAD https://pub.dev/api/archives/collection-1.19.1.tar.gz
+2026-08-24T14:51:18.585Z  [API  ]  HEAD https://pub.dev/api/archives/path-1.9.1.tar.gz
+2026-08-24T14:51:18.781Z  [API  ]  200 OK (250ms)
+2026-08-24T14:51:18.817Z  [API  ]  200 OK (250ms)
+2026-08-24T14:51:18.827Z  [API  ]  200 OK (256ms)
+2026-08-24T14:51:18.835Z  [API  ]  200 OK (250ms)
+2026-08-24T14:51:19.264Z  [API  ]  200 OK (1067ms)
+2026-08-24T14:51:19.330Z  [API  ]  200 OK (1131ms)
+2026-08-24T14:51:19.522Z  [API  ]  HEAD https://pub.dev/api/archives/mime-2.0.0.tar.gz
+2026-08-24T14:51:19.569Z  [API  ]  HEAD https://pub.dev/api/archives/cli_util-0.6.0.tar.gz
+2026-08-24T14:51:20.284Z  [API  ]  200 OK (2066ms)
+2026-08-24T14:51:20.293Z  [API  ]  200 OK (2073ms)
+2026-08-24T14:51:20.295Z  [API  ]  HEAD https://pub.dev/api/archives/node_preamble-2.0.2.tar.gz
+2026-08-24T14:51:20.355Z  [API  ]  200 OK (786ms)
+2026-08-24T14:51:20.534Z  [API  ]  200 OK (1012ms)
+2026-08-24T14:51:20.543Z  [API  ]  HEAD https://pub.dev/api/archives/logging-1.3.0.tar.gz
+2026-08-24T14:51:21.234Z  [API  ]  200 OK (3021ms)
+2026-08-24T14:51:21.243Z  [API  ]  200 OK (3026ms)
+2026-08-24T14:51:21.244Z  [API  ]  200 OK (3033ms)
+2026-08-24T14:51:21.338Z  [API  ]  200 OK (1043ms)
+2026-08-24T14:51:21.592Z  [API  ]  HEAD https://pub.dev/api/archives/vm_service-15.3.0.tar.gz
+2026-08-24T14:51:21.605Z  [API  ]  HEAD https://pub.dev/api/archives/clock-1.1.2.tar.gz
+2026-08-24T14:51:21.618Z  [API  ]  HEAD https://pub.dev/api/archives/package_config-3.0.0.tar.gz
+2026-08-24T14:51:21.631Z  [API  ]  200 OK (1088ms)
+2026-08-24T14:51:21.780Z  [API  ]  200 OK (3571ms)
+2026-08-24T14:51:22.094Z  [API  ]  200 OK (3879ms)
+2026-08-24T14:51:22.096Z  [API  ]  HEAD https://pub.dev/api/archives/stack_trace-1.12.1.tar.gz
+2026-08-24T14:51:22.111Z  [API  ]  HEAD https://pub.dev/api/archives/file-7.0.1.tar.gz
+2026-08-24T14:51:22.396Z  [API  ]  200 OK (4164ms)
+2026-08-24T14:51:22.398Z  [API  ]  HEAD https://pub.dev/api/archives/analysis_server_plugin-0.3.20.tar.gz
+2026-08-24T14:51:22.414Z  [API  ]  200 OK (4211ms)
+2026-08-24T14:51:22.414Z  [API  ]  404 Not Found (4185ms)
+2026-08-24T14:51:22.414Z  [API  ]  404 Not Found (4207ms)
+2026-08-24T14:51:22.420Z  [API  ]  200 OK (4219ms)
+2026-08-24T14:51:22.647Z  [API  ]  HEAD https://pub.dev/api/archives/posix-6.5.2.tar.gz
+2026-08-24T14:51:22.662Z  [API  ]  HEAD https://pub.dev/api/archives/archive-4.2.0.tar.gz
+2026-08-24T14:51:22.838Z  [API  ]  200 OK (1233ms)
+2026-08-24T14:51:22.839Z  [API  ]  200 OK (1221ms)
+2026-08-24T14:51:22.839Z  [API  ]  200 OK (1247ms)
+2026-08-24T14:51:23.109Z  [API  ]  200 OK (1013ms)
+2026-08-24T14:51:23.120Z  [API  ]  200 OK (1009ms)
+2026-08-24T14:51:23.226Z  [API  ]  200 OK (5004ms)
+2026-08-24T14:51:23.227Z  [API  ]  HEAD https://pub.dev/api/archives/web_socket-1.0.1.tar.gz
+2026-08-24T14:51:23.241Z  [API  ]  200 OK (5017ms)
+2026-08-24T14:51:23.241Z  [API  ]  200 OK (5014ms)
+2026-08-24T14:51:23.460Z  [API  ]  200 OK (1062ms)
+2026-08-24T14:51:23.461Z  [API  ]  200 OK (799ms)
+2026-08-24T14:51:23.469Z  [API  ]  200 OK (822ms)
+2026-08-24T14:51:23.480Z  [API  ]  HEAD https://pub.dev/api/archives/uuid-4.6.0.tar.gz
+2026-08-24T14:51:23.503Z  [API  ]  HEAD https://pub.dev/api/archives/petitparser-7.0.2.tar.gz
+2026-08-24T14:51:24.567Z  [API  ]  200 OK (1340ms)
+2026-08-24T14:51:24.568Z  [API  ]  200 OK (1088ms)
+2026-08-24T14:51:24.659Z  [API  ]  200 OK (1156ms)
+2026-08-24T14:51:24.696Z  [INFO ]  Dep graph: 11 direct, 82 transitive, 0 overrides
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.cupertino_icons.1.0.9
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.dio.5.11.0
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.flutter_launcher_icons.0.14.4
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.flutter_lints.6.0.0
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.flutter_riverpod.3.4.2
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.flutter_svg.2.3.0
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.go_router.17.5.0
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.lottie.3.5.1
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.riverpod.3.4.2
+2026-08-24T14:51:24.697Z  [CACHE]  HIT  osv.vulns.saropa_lints.14.0.2
+2026-08-24T14:51:24.697Z  [CACHE]  MISS osv.vulns.vector_graphics.1.2.3
+2026-08-24T14:51:24.698Z  [API  ]  POST https://api.osv.dev/v1/querybatch
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.cupertino_icons.1.0.9
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.dio.5.11.0
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.flutter_launcher_icons.0.14.4
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.flutter_lints.6.0.0
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.flutter_riverpod.3.4.2
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.flutter_svg.2.3.0
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.go_router.17.5.0
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.lottie.3.5.1
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.riverpod.3.4.2
+2026-08-24T14:51:24.700Z  [CACHE]  HIT  ghsa.vulns.saropa_lints.14.0.2
+2026-08-24T14:51:24.700Z  [CACHE]  MISS ghsa.vulns.vector_graphics.1.2.3
+2026-08-24T14:51:24.701Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=vector_graphics&affects=1.2.3&per_page=100
+2026-08-24T14:51:28.162Z  [API  ]  200 OK (3464ms)
+2026-08-24T14:51:29.598Z  [API  ]  403 rate limit exceeded (4897ms)
+2026-08-24T14:51:29.598Z  [ERROR]  GitHub Advisory query failed for vector_graphics: 403
+2026-08-24T14:51:30.327Z  [INFO ]  Scan complete — 29847ms — vibrant:7 stable:2 outdated:2 abandoned:0 eol:0
+
+────────────────────────────────────────────────────────────
+
+2026-08-24T15:27:54.538Z  [CACHE]  HIT  flutter.releases
+2026-08-24T15:27:54.538Z  [INFO ]  Scan started — 11 packages
+2026-08-24T15:27:54.538Z  [INFO ]  [1/11] cupertino_icons
+2026-08-24T15:27:54.539Z  [INFO ]  Known issue: active
+2026-08-24T15:27:54.539Z  [CACHE]  HIT  pub.info.cupertino_icons
+2026-08-24T15:27:54.539Z  [CACHE]  HIT  pub.metrics.cupertino_icons
+2026-08-24T15:27:54.539Z  [CACHE]  HIT  pub.publisher.cupertino_icons
+2026-08-24T15:27:54.539Z  [CACHE]  MISS pub.reverseDeps.cupertino_icons
+2026-08-24T15:27:54.539Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Acupertino_icons
+2026-08-24T15:27:54.542Z  [INFO ]  [2/11] dio
+2026-08-24T15:27:54.542Z  [INFO ]  Known issue: active
+2026-08-24T15:27:54.542Z  [CACHE]  HIT  pub.info.dio
+2026-08-24T15:27:54.542Z  [CACHE]  HIT  pub.metrics.dio
+2026-08-24T15:27:54.542Z  [CACHE]  HIT  pub.publisher.dio
+2026-08-24T15:27:54.542Z  [CACHE]  MISS pub.reverseDeps.dio
+2026-08-24T15:27:54.542Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Adio
+2026-08-24T15:27:54.544Z  [INFO ]  [3/11] flutter_launcher_icons
+2026-08-24T15:27:54.544Z  [INFO ]  Known issue: active
+2026-08-24T15:27:54.544Z  [CACHE]  HIT  pub.info.flutter_launcher_icons
+2026-08-24T15:27:54.544Z  [CACHE]  HIT  pub.metrics.flutter_launcher_icons
+2026-08-24T15:27:54.544Z  [CACHE]  HIT  pub.publisher.flutter_launcher_icons
+2026-08-24T15:27:54.544Z  [CACHE]  MISS pub.reverseDeps.flutter_launcher_icons
+2026-08-24T15:27:54.544Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_launcher_icons
+2026-08-24T15:27:54.546Z  [INFO ]  [4/11] flutter_lints
+2026-08-24T15:27:54.546Z  [INFO ]  Known issue: active
+2026-08-24T15:27:54.546Z  [CACHE]  HIT  pub.info.flutter_lints
+2026-08-24T15:27:54.546Z  [CACHE]  HIT  pub.metrics.flutter_lints
+2026-08-24T15:27:54.546Z  [CACHE]  HIT  pub.publisher.flutter_lints
+2026-08-24T15:27:54.546Z  [CACHE]  MISS pub.reverseDeps.flutter_lints
+2026-08-24T15:27:54.546Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_lints
+2026-08-24T15:27:54.548Z  [INFO ]  [5/11] flutter_riverpod
+2026-08-24T15:27:54.548Z  [INFO ]  Known issue: active
+2026-08-24T15:27:54.548Z  [CACHE]  HIT  pub.info.flutter_riverpod
+2026-08-24T15:27:54.548Z  [CACHE]  HIT  pub.metrics.flutter_riverpod
+2026-08-24T15:27:54.548Z  [CACHE]  HIT  pub.publisher.flutter_riverpod
+2026-08-24T15:27:54.548Z  [CACHE]  MISS pub.reverseDeps.flutter_riverpod
+2026-08-24T15:27:54.548Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_riverpod
+2026-08-24T15:27:54.550Z  [INFO ]  [6/11] go_router
+2026-08-24T15:27:54.550Z  [INFO ]  Known issue: active
+2026-08-24T15:27:54.550Z  [CACHE]  HIT  pub.info.go_router
+2026-08-24T15:27:54.550Z  [CACHE]  HIT  pub.metrics.go_router
+2026-08-24T15:27:54.550Z  [CACHE]  HIT  pub.publisher.go_router
+2026-08-24T15:27:54.550Z  [CACHE]  MISS pub.reverseDeps.go_router
+2026-08-24T15:27:54.550Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ago_router
+2026-08-24T15:27:55.766Z  [API  ]  200 OK (1224ms)
+2026-08-24T15:27:55.808Z  [API  ]  200 OK (1262ms)
+2026-08-24T15:27:55.829Z  [API  ]  200 OK (1281ms)
+2026-08-24T15:27:55.901Z  [API  ]  200 OK (1362ms)
+2026-08-24T15:27:56.011Z  [CACHE]  HIT  gh.cfug.dio
+2026-08-24T15:27:56.011Z  [CACHE]  HIT  pub.archiveSize.dio
+2026-08-24T15:27:56.015Z  [CACHE]  HIT  pub.tarball.v4zqir
+2026-08-24T15:27:56.062Z  [API  ]  200 OK (1518ms)
+2026-08-24T15:27:56.080Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T15:27:56.080Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T15:27:56.080Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T15:27:56.080Z&per_page=100
+2026-08-24T15:27:56.080Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T15:27:56.080Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:56.080Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T15:27:56.150Z  [CACHE]  HIT  gh.rrousselGit.riverpod
+2026-08-24T15:27:56.150Z  [CACHE]  HIT  pub.archiveSize.flutter_riverpod
+2026-08-24T15:27:56.153Z  [CACHE]  HIT  pub.tarball.vc4vn3
+2026-08-24T15:27:56.165Z  [CACHE]  MISS gh.fluttercommunity.flutter_launcher_icons
+2026-08-24T15:27:56.165Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons
+2026-08-24T15:27:56.165Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/issues?state=closed&since=2026-05-26T15:27:56.165Z&per_page=100
+2026-08-24T15:27:56.165Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/pulls?state=closed&per_page=100
+2026-08-24T15:27:56.165Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:56.165Z  [API  ]  GET https://api.github.com/repos/fluttercommunity/flutter_launcher_icons/pulls?state=open&per_page=100
+2026-08-24T15:27:56.259Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T15:27:56.259Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T15:27:56.259Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T15:27:56.259Z&per_page=100
+2026-08-24T15:27:56.259Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T15:27:56.259Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:56.259Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T15:27:56.715Z  [API  ]  200 OK (2165ms)
+2026-08-24T15:27:56.988Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T15:27:56.988Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T15:27:56.988Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T15:27:56.988Z&per_page=100
+2026-08-24T15:27:56.988Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T15:27:56.988Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:56.988Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T15:27:57.412Z  [SCORE]  dio → 95.6 (vibrant) [rv=98.5 eg=59.5 pop=100 pt=-5 pq=10]
+2026-08-24T15:27:57.413Z  [INFO ]  [7/11] lottie
+2026-08-24T15:27:57.413Z  [INFO ]  Known issue: active
+2026-08-24T15:27:57.413Z  [CACHE]  HIT  pub.info.lottie
+2026-08-24T15:27:57.413Z  [CACHE]  HIT  pub.metrics.lottie
+2026-08-24T15:27:57.413Z  [CACHE]  HIT  pub.publisher.lottie
+2026-08-24T15:27:57.413Z  [CACHE]  MISS pub.reverseDeps.lottie
+2026-08-24T15:27:57.413Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Alottie
+2026-08-24T15:27:57.895Z  [API  ]  200 OK (482ms)
+2026-08-24T15:27:57.967Z  [CACHE]  MISS gh.xvrh.lottie-flutter
+2026-08-24T15:27:57.967Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter
+2026-08-24T15:27:57.967Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/issues?state=closed&since=2026-05-26T15:27:57.967Z&per_page=100
+2026-08-24T15:27:57.967Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/pulls?state=closed&per_page=100
+2026-08-24T15:27:57.967Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:57.967Z  [API  ]  GET https://api.github.com/repos/xvrh/lottie-flutter/pulls?state=open&per_page=100
+2026-08-24T15:27:58.806Z  [API  ]  403 rate limit exceeded (1818ms)
+2026-08-24T15:27:58.806Z  [API  ]  403 rate limit exceeded (1818ms)
+2026-08-24T15:27:58.806Z  [API  ]  403 rate limit exceeded (1818ms)
+2026-08-24T15:27:58.806Z  [API  ]  403 rate limit exceeded (1818ms)
+2026-08-24T15:27:58.806Z  [API  ]  403 rate limit exceeded (1818ms)
+2026-08-24T15:27:58.806Z  [CACHE]  HIT  pub.archiveSize.go_router
+2026-08-24T15:27:58.806Z  [CACHE]  HIT  pub.tarball.tp3hdt
+2026-08-24T15:27:58.810Z  [SCORE]  go_router → 86.6 (vibrant) [rv=96.43835616438356 eg=48.21917808219178 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T15:27:58.810Z  [INFO ]  [8/11] riverpod
+2026-08-24T15:27:58.810Z  [CACHE]  HIT  pub.info.riverpod
+2026-08-24T15:27:58.810Z  [CACHE]  HIT  pub.metrics.riverpod
+2026-08-24T15:27:58.810Z  [CACHE]  HIT  pub.publisher.riverpod
+2026-08-24T15:27:58.810Z  [CACHE]  MISS pub.reverseDeps.riverpod
+2026-08-24T15:27:58.810Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ariverpod
+2026-08-24T15:27:59.221Z  [API  ]  403 rate limit exceeded (3056ms)
+2026-08-24T15:27:59.221Z  [API  ]  403 rate limit exceeded (3056ms)
+2026-08-24T15:27:59.221Z  [API  ]  403 rate limit exceeded (3056ms)
+2026-08-24T15:27:59.221Z  [API  ]  403 rate limit exceeded (3056ms)
+2026-08-24T15:27:59.221Z  [API  ]  403 rate limit exceeded (3056ms)
+2026-08-24T15:27:59.221Z  [CACHE]  HIT  pub.archiveSize.flutter_launcher_icons
+2026-08-24T15:27:59.223Z  [CACHE]  HIT  pub.tarball.mbw4oz
+2026-08-24T15:27:59.227Z  [API  ]  200 OK (417ms)
+2026-08-24T15:27:59.317Z  [CACHE]  HIT  gh.rrousselGit.riverpod
+2026-08-24T15:27:59.317Z  [CACHE]  HIT  pub.archiveSize.riverpod
+2026-08-24T15:27:59.318Z  [CACHE]  HIT  pub.tarball.4u7372
+2026-08-24T15:27:59.457Z  [API  ]  403 rate limit exceeded (1490ms)
+2026-08-24T15:27:59.457Z  [API  ]  403 rate limit exceeded (1490ms)
+2026-08-24T15:27:59.457Z  [API  ]  403 rate limit exceeded (1490ms)
+2026-08-24T15:27:59.457Z  [API  ]  403 rate limit exceeded (1490ms)
+2026-08-24T15:27:59.457Z  [API  ]  403 rate limit exceeded (1490ms)
+2026-08-24T15:27:59.457Z  [CACHE]  HIT  pub.archiveSize.lottie
+2026-08-24T15:27:59.457Z  [CACHE]  HIT  pub.tarball.4owc4s
+2026-08-24T15:27:59.457Z  [SCORE]  lottie → 78.5 (vibrant) [rv=87.12328767123287 eg=43.56164383561644 pop=50 pt=-5 pq=10]
+2026-08-24T15:27:59.458Z  [INFO ]  [9/11] saropa_lints
+2026-08-24T15:27:59.458Z  [CACHE]  HIT  pub.info.saropa_lints
+2026-08-24T15:27:59.458Z  [CACHE]  HIT  pub.metrics.saropa_lints
+2026-08-24T15:27:59.458Z  [CACHE]  HIT  pub.publisher.saropa_lints
+2026-08-24T15:27:59.458Z  [CACHE]  MISS pub.reverseDeps.saropa_lints
+2026-08-24T15:27:59.458Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Asaropa_lints
+2026-08-24T15:27:59.468Z  [SCORE]  flutter_launcher_icons → 9.1 (outdated) [rv=0 eg=0 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T15:27:59.468Z  [INFO ]  [10/11] vector_graphics
+2026-08-24T15:27:59.468Z  [CACHE]  HIT  pub.info.vector_graphics
+2026-08-24T15:27:59.468Z  [CACHE]  HIT  pub.metrics.vector_graphics
+2026-08-24T15:27:59.468Z  [CACHE]  HIT  pub.publisher.vector_graphics
+2026-08-24T15:27:59.468Z  [CACHE]  MISS pub.reverseDeps.vector_graphics
+2026-08-24T15:27:59.468Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Avector_graphics
+2026-08-24T15:27:59.571Z  [SCORE]  riverpod → 88.2 (vibrant) [rv=100 eg=67.94444444444444 pop=100 pt=-5 pq=10]
+2026-08-24T15:27:59.571Z  [INFO ]  [11/11] vector_graphics_compiler
+2026-08-24T15:27:59.571Z  [CACHE]  HIT  pub.info.vector_graphics_compiler
+2026-08-24T15:27:59.572Z  [CACHE]  HIT  pub.metrics.vector_graphics_compiler
+2026-08-24T15:27:59.572Z  [CACHE]  HIT  pub.publisher.vector_graphics_compiler
+2026-08-24T15:27:59.572Z  [CACHE]  MISS pub.reverseDeps.vector_graphics_compiler
+2026-08-24T15:27:59.572Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Avector_graphics_compiler
+2026-08-24T15:27:59.806Z  [API  ]  200 OK (338ms)
+2026-08-24T15:27:59.808Z  [SCORE]  flutter_riverpod → 86.3 (vibrant) [rv=100 eg=67.94444444444444 pop=93.75 pt=-5 pq=8.75]
+2026-08-24T15:27:59.808Z  [API  ]  403 rate limit exceeded (3549ms)
+2026-08-24T15:27:59.808Z  [API  ]  403 rate limit exceeded (3549ms)
+2026-08-24T15:27:59.808Z  [API  ]  403 rate limit exceeded (3549ms)
+2026-08-24T15:27:59.808Z  [API  ]  403 rate limit exceeded (3549ms)
+2026-08-24T15:27:59.808Z  [API  ]  403 rate limit exceeded (3549ms)
+2026-08-24T15:27:59.808Z  [CACHE]  HIT  pub.archiveSize.cupertino_icons
+2026-08-24T15:27:59.808Z  [CACHE]  HIT  pub.tarball.oijvck
+2026-08-24T15:27:59.809Z  [SCORE]  cupertino_icons → 53.3 (stable) [rv=58.35616438356164 eg=29.17808219178082 pop=50 pt=-5 pq=10]
+2026-08-24T15:27:59.809Z  [API  ]  200 OK (351ms)
+2026-08-24T15:27:59.873Z  [CACHE]  MISS gh.saropa.saropa_lints
+2026-08-24T15:27:59.873Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints
+2026-08-24T15:27:59.873Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/issues?state=closed&since=2026-05-26T15:27:59.873Z&per_page=100
+2026-08-24T15:27:59.873Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/pulls?state=closed&per_page=100
+2026-08-24T15:27:59.873Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:59.873Z  [API  ]  GET https://api.github.com/repos/saropa/saropa_lints/pulls?state=open&per_page=100
+2026-08-24T15:27:59.888Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T15:27:59.888Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T15:27:59.888Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T15:27:59.888Z&per_page=100
+2026-08-24T15:27:59.888Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T15:27:59.888Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:27:59.888Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T15:27:59.904Z  [API  ]  403 rate limit exceeded (3824ms)
+2026-08-24T15:27:59.904Z  [API  ]  403 rate limit exceeded (3824ms)
+2026-08-24T15:27:59.904Z  [API  ]  403 rate limit exceeded (3824ms)
+2026-08-24T15:27:59.904Z  [API  ]  403 rate limit exceeded (3824ms)
+2026-08-24T15:27:59.904Z  [API  ]  403 rate limit exceeded (3824ms)
+2026-08-24T15:27:59.904Z  [CACHE]  HIT  pub.archiveSize.flutter_lints
+2026-08-24T15:27:59.904Z  [CACHE]  HIT  pub.tarball.z7ll8h
+2026-08-24T15:27:59.905Z  [SCORE]  flutter_lints → 12.5 (outdated) [rv=0 eg=0 pop=50 pt=-5 pq=10]
+2026-08-24T15:27:59.905Z  [CACHE]  HIT  pub.search.lints
+2026-08-24T15:27:59.965Z  [API  ]  200 OK (393ms)
+2026-08-24T15:28:00.063Z  [CACHE]  MISS gh.flutter.packages
+2026-08-24T15:28:00.063Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-08-24T15:28:00.063Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-05-26T15:28:00.063Z&per_page=100
+2026-08-24T15:28:00.063Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-08-24T15:28:00.063Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-08-24T15:28:00.063Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-08-24T15:28:00.150Z  [API  ]  403 rate limit exceeded (277ms)
+2026-08-24T15:28:00.150Z  [API  ]  403 rate limit exceeded (277ms)
+2026-08-24T15:28:00.150Z  [API  ]  403 rate limit exceeded (277ms)
+2026-08-24T15:28:00.150Z  [API  ]  403 rate limit exceeded (277ms)
+2026-08-24T15:28:00.150Z  [API  ]  403 rate limit exceeded (277ms)
+2026-08-24T15:28:00.150Z  [CACHE]  HIT  pub.archiveSize.saropa_lints
+2026-08-24T15:28:00.150Z  [CACHE]  HIT  pub.tarball.npgr1p
+2026-08-24T15:28:00.152Z  [SCORE]  saropa_lints → 83.7 (vibrant) [rv=99.45205479452055 eg=49.726027397260275 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T15:28:00.153Z  [API  ]  403 rate limit exceeded (265ms)
+2026-08-24T15:28:00.153Z  [API  ]  403 rate limit exceeded (265ms)
+2026-08-24T15:28:00.153Z  [API  ]  403 rate limit exceeded (265ms)
+2026-08-24T15:28:00.153Z  [API  ]  403 rate limit exceeded (265ms)
+2026-08-24T15:28:00.153Z  [API  ]  403 rate limit exceeded (265ms)
+2026-08-24T15:28:00.153Z  [CACHE]  HIT  pub.archiveSize.vector_graphics
+2026-08-24T15:28:00.155Z  [CACHE]  HIT  pub.tarball.4gehet
+2026-08-24T15:28:00.327Z  [API  ]  403 rate limit exceeded (264ms)
+2026-08-24T15:28:00.327Z  [API  ]  403 rate limit exceeded (264ms)
+2026-08-24T15:28:00.327Z  [API  ]  403 rate limit exceeded (264ms)
+2026-08-24T15:28:00.327Z  [API  ]  403 rate limit exceeded (264ms)
+2026-08-24T15:28:00.327Z  [API  ]  403 rate limit exceeded (264ms)
+2026-08-24T15:28:00.328Z  [CACHE]  HIT  pub.archiveSize.vector_graphics_compiler
+2026-08-24T15:28:00.330Z  [CACHE]  MISS pub.tarball.wvjh21
+2026-08-24T15:28:00.330Z  [API  ]  GET https://pub.dev/api/archives/vector_graphics_compiler-1.3.0.tar.gz
+2026-08-24T15:28:00.585Z  [API  ]  200 OK (255ms)
+2026-08-24T15:28:01.209Z  [SCORE]  vector_graphics → 79.7 (vibrant) [rv=93.6986301369863 eg=46.84931506849315 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T15:28:01.984Z  [SCORE]  vector_graphics_compiler → 76.6 (vibrant) [rv=92.87671232876713 eg=46.43835616438356 pop=46.875 pt=-5 pq=9.375]
+2026-08-24T15:28:02.906Z  [ERROR]  Blocker analysis skipped — CLI commands failed — pub outdated: Command failed: dart pub outdated --json --transitive
+Cannot specify both `--json` and `--transitive`
+The json report always includes transitive dependencies.
+
+Usage: dart pub outdated [options]
+-h, --help                         Print this usage information.
+    --[no-]dependency-overrides    Show resolutions with `dependency_overrides`.
+                                   (defaults to on)
+    --[no-]dev-dependencies        Take dev dependencies into account.
+                                   (defaults to on)
+    --json                         Output the results using a json format.
+    --[no-]prereleases             Include prereleases in latest version.
+    --[no-]show-all                Include dependencies that are already
+                                   fulfilling --mode.
+    --[no-]transitive              Show transitive dependencies.
+                                   (defaults to on)
+-C, --directory=<dir>              Run this in the directory <dir>.
+
+Run "dart help" to see global options.
+See https://dart.dev/tools/pub/cmd/pub-outdated for detailed documentation.
+
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.async
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.collection
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.meta
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.http_parser
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.source_span
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.path
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.term_glyph
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.string_scanner
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.typed_data
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.mime
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.dio_web_adapter
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.web
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.args
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.checked_yaml
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.json_annotation
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.yaml
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.cli_util
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.image
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.archive
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.posix
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.ffi
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.lints
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.flutter
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.characters
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.material_color_utilities
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.vector_math
+2026-08-24T15:28:03.590Z  [CACHE]  HIT  pub.archiveSize.sky_engine
+2026-08-24T15:28:03.590Z  [CACHE]  MISS pub.archiveSize.flutter_test
+2026-08-24T15:28:03.590Z  [API  ]  GET https://pub.dev/api/packages/flutter_test
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.test_api
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.boolean_selector
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.stack_trace
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.stream_channel
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.matcher
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.fake_async
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.clock
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.leak_tracker_flutter_testing
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.leak_tracker
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.vm_service
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.leak_tracker_testing
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.listen
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.state_notifier
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.test
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.analyzer
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize._fe_analyzer_shared
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.convert
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.crypto
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.glob
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.file
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.package_config
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.pub_semver
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.watcher
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.coverage
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.cli_config
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.logging
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.source_maps
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.http_multi_server
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.io
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.node_preamble
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.pool
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.shelf
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.shelf_packages_handler
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.shelf_static
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.shelf_web_socket
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.web_socket_channel
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.web_socket
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.test_core
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.frontend_server_client
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.source_map_stack_trace
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.webkit_inspection_protocol
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.uuid
+2026-08-24T15:28:03.592Z  [CACHE]  HIT  pub.archiveSize.fixnum
+2026-08-24T15:28:03.592Z  [CACHE]  MISS pub.archiveSize.flutter_web_plugins
+2026-08-24T15:28:03.592Z  [API  ]  GET https://pub.dev/api/packages/flutter_web_plugins
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.http
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.analysis_server_plugin
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.analyzer_plugin
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.dart_style
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.yaml_edit
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.vector_graphics_codec
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.path_parsing
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.xml
+2026-08-24T15:28:03.594Z  [CACHE]  HIT  pub.archiveSize.petitparser
+2026-08-24T15:28:04.131Z  [API  ]  404 Not Found (541ms)
+2026-08-24T15:28:04.160Z  [API  ]  404 Not Found (568ms)
+2026-08-24T15:28:04.161Z  [INFO ]  Dep graph: 11 direct, 81 transitive, 0 overrides
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.cupertino_icons.1.0.9
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.dio.5.11.0
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.flutter_launcher_icons.0.14.4
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.flutter_lints.6.0.0
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.flutter_riverpod.3.4.2
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.go_router.17.5.0
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.lottie.3.5.1
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.riverpod.3.4.2
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.saropa_lints.14.0.2
+2026-08-24T15:28:04.162Z  [CACHE]  HIT  osv.vulns.vector_graphics.1.2.3
+2026-08-24T15:28:04.162Z  [CACHE]  MISS osv.vulns.vector_graphics_compiler.1.3.0
+2026-08-24T15:28:04.162Z  [API  ]  POST https://api.osv.dev/v1/querybatch
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.cupertino_icons.1.0.9
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.dio.5.11.0
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.flutter_launcher_icons.0.14.4
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.flutter_lints.6.0.0
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.flutter_riverpod.3.4.2
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.go_router.17.5.0
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.lottie.3.5.1
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.riverpod.3.4.2
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.saropa_lints.14.0.2
+2026-08-24T15:28:04.165Z  [CACHE]  HIT  ghsa.vulns.vector_graphics.1.2.3
+2026-08-24T15:28:04.165Z  [CACHE]  MISS ghsa.vulns.vector_graphics_compiler.1.3.0
+2026-08-24T15:28:04.165Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=vector_graphics_compiler&affects=1.3.0&per_page=100
+2026-08-24T15:28:04.509Z  [API  ]  403 rate limit exceeded (344ms)
+2026-08-24T15:28:04.509Z  [ERROR]  GitHub Advisory query failed for vector_graphics_compiler: 403
+2026-08-24T15:28:05.373Z  [API  ]  200 OK (1211ms)
+2026-08-24T15:28:06.152Z  [INFO ]  Scan complete — 11614ms — vibrant:8 stable:1 outdated:2 abandoned:0 eol:0

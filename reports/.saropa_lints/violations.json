@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-09-14T04:29:02.289Z",
+  "violations": [
+    {
+      "file": "lib/core/riverpod_weather/weather_repository.dart",
+      "line": 4,
+      "rule": "unused_field",
+      "message": "The value of the field '_dio' isn't used.\nTry removing the field, or using it.",
+      "severity": "warning",
+      "impact": "warning"
+    },
+    {
+      "file": "lib/services/open-meteo_fetching_data.dart",
+      "line": 1,
+      "rule": "file_names",
+      "message": "The file name 'open-meteo_fetching_data.dart' isn't a lower_case_with_underscores identifier.\nTry changing the name to follow the lower_case_with_underscores style.\nYou may need to close the file and restart VS Code after renaming a file by only casing.",
+      "severity": "info",
+      "impact": "info"
+    }
+  ],
+  "summary": {
+    "totalViolations": 2,
+    "filesWithIssues": 2,
+    "bySeverity": {
+      "warning": 1,
+      "info": 1
+    },
+    "byImpact": {
+      "warning": 1,
+      "info": 1
+    },
+    "issuesByRule": {
+      "unused_field": 1,
+      "file_names": 1
+    },
+    "byRuleType": {
+      "unspecified": 2
+    },
+    "byRuleStatus": {
+      "ready": 2
+    }
+  },
+  "config": {
+    "tier": "recommended",
+    "ruleMetadataByRule": {}
+  }
+}

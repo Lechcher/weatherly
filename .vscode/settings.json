@@ -1,0 +1,22 @@
+{
+    "saropaLints.enabled": false,
+    "svg.preview.background": "editor",
+    "saropaLints.packageVibrancy.suppressedPackages": [
+        "vector_graphics"
+    ],
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.hg/store/**": true,
+        "**/.dart_tool": true,
+        "**/*.hprof": true,
+        "**/*.log": true,
+        "**/build/**": true,
+        "**/.dart_tool/**": true,
+        "**/reports/**": true,
+        "**/.vs/**": true,
+        "**/dependency_overrides/**/build/**": true,
+        "**/dependency_overrides/**/.dart_tool/**": true
+    },
+    "saropaLints.lspServer.enabled": true
+}

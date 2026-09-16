@@ -1,0 +1,55 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-08-08T11:54:39.668Z",
+    "flutter_version": "3.44.8",
+    "dart_version": "3.12.2",
+    "total_packages_scanned": 2,
+    "execution_time_ms": 7067
+  },
+  "summary": {
+    "total": 2,
+    "vibrant": 0,
+    "stable": 1,
+    "outdated": 1,
+    "abandoned": 0,
+    "end_of_life": 0
+  },
+  "packages": [
+    {
+      "name": "cupertino_icons",
+      "installed_version": "1.0.9",
+      "latest_version": "1.0.9",
+      "status": "Stable",
+      "vibrancy_score": 56.6,
+      "pub_points": 160,
+      "stars": 0,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/cupertino_icons",
+      "repository_url": "https://github.com/flutter/packages/tree/main/third_party/packages/cupertino_icons",
+      "license": "MIT",
+      "archive_size_bytes": 2601144,
+      "bloat_rating": 0,
+      "file_usage_count": 0,
+      "file_usages": []
+    },
+    {
+      "name": "flutter_lints",
+      "installed_version": "6.0.0",
+      "latest_version": "6.0.0",
+      "status": "Outdated",
+      "vibrancy_score": 12.5,
+      "pub_points": 160,
+      "stars": 0,
+      "is_discontinued": false,
+      "is_unlisted": false,
+      "pub_dev_url": "https://pub.dev/packages/flutter_lints",
+      "repository_url": "https://github.com/flutter/packages/tree/main/packages/flutter_lints",
+      "license": "BSD-3-Clause",
+      "archive_size_bytes": 4980,
+      "bloat_rating": 0,
+      "file_usage_count": 0,
+      "file_usages": []
+    }
+  ]
+}

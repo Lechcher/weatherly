@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "producer": {
+    "name": "saropa_lints",
+    "version": "16.4.1"
+  },
+  "generatedAt": "2026-09-16T04:25:57.737Z",
+  "diagnostics": [
+    {
+      "id": "lints:unused_field:lib/core/riverpod_weather/weather_repository.dart:4",
+      "source": "lints",
+      "severity": "warning",
+      "category": "other",
+      "title": "The value of the field '_dio' isn't used.\nTry removing the field, or using it.",
+      "ruleId": "unused_field",
+      "location": {
+        "file": "lib/core/riverpod_weather/weather_repository.dart",
+        "line": 4
+      },
+      "fix": {
+        "kind": "command",
+        "title": "Explain this rule",
+        "command": "saropaLints.explainRule",
+        "args": [
+          {
+            "ruleId": "unused_field"
+          }
+        ]
+      },
+      "docUri": "https://github.com/saropa/saropa_lints/blob/main/ROADMAP.md"
+    },
+    {
+      "id": "lints:file_names:lib/services/open-meteo_fetching_data.dart:1",
+      "source": "lints",
+      "severity": "info",
+      "category": "other",
+      "title": "The file name 'open-meteo_fetching_data.dart' isn't a lower_case_with_underscores identifier.\nTry changing the name to follow the lower_case_with_underscores style.\nYou may need to close the file and restart VS Code after renaming a file by only casing.",
+      "ruleId": "file_names",
+      "location": {
+        "file": "lib/services/open-meteo_fetching_data.dart",
+        "line": 1
+      },
+      "fix": {
+        "kind": "command",
+        "title": "Explain this rule",
+        "command": "saropaLints.explainRule",
+        "args": [
+          {
+            "ruleId": "file_names"
+          }
+        ]
+      },
+      "docUri": "https://github.com/saropa/saropa_lints/blob/main/ROADMAP.md"
+    }
+  ]
+}

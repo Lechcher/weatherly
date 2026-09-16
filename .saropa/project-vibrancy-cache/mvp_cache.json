@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": 1,
+  "blameByBlob": {},
+  "lcovByFingerprint": {},
+  "parseSchemaVersion": 1,
+  "parseByPath": {
+    "lib/app_router.dart": {
+      "hash": "fd13b9e8",
+      "functions": [],
+      "refs": {
+        "GoRouter": 1,
+        "initialLocation": 1,
+        "routes": 4,
+        "GoRoute": 4,
+        "path": 4,
+        "builder": 5,
+        "StatefulShellRoute": 1,
+        "indexedStack": 1,
+        "MainShellScreen": 1,
+        "navigationShell": 2,
+        "branches": 1,
+        "StatefulShellBranch": 3
+      }
+    },
+    "lib/constants/animations.dart": {
+      "hash": "34d5040f",
+      "functions": [],
+      "refs": {}
+    },
+    "lib/constants/datas.dart": {
+      "hash": "330078cc",
+      "functions": [],
+      "refs": {
+        "WeatherModel": 3,
+        "cityName": 3,
+        "lat": 3,
+        "lon": 3,
+        "currentTemp": 3,
+        "weatherCode": 36,
+        "apparentTemp": 3,
+        "humidity": 3,
+        "windSpeed": 3,
+        "uvIndex": 3,
+        "visibility": 3,
+        "pressure": 3,
+        "usAqi": 3,
+        "sunrise": 3,
+        "sunset": 3,
+        "isDay": 19,
+        "hourlyForecast": 3,
+        "HourlyWeather": 16,
+        "time": 16,
+        "temp": 16,
+        "dailyForecast": 3,
+        "DailyWeather": 17,
+        "date": 17,
+        "maxTemp": 17,
+        "minTemp": 17
+      }
+    },
+    "lib/constants/icons.dart": {
+      "hash": "2a4748",
+      "functions": [],
+      "refs": {
+        "_weatherDetailIcon": 6,
+        "_utilityIcon": 12
+      }
+    },
+    "lib/constants/images.dart": {
+      "hash": "4aae8295",
+      "functions": [],
+      "refs": {
+        "_image": 2,
+        "_weatherIcon": 20
+      }
+    },
+    "lib/core/gorouter/history_backscope.dart": {
+      "hash": "dddb0b6f",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 14,
+          "lineEnd": 23,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "HistoryBackscope": 1,
+        "override": 1,
+        "PopScope": 1,
+        "canPop": 1,
+        "navigationShell": 2,
+        "currentIndex": 1,
+        "onPopInvokedWithResult": 1,
+        "goBranch": 1,
+        "child": 2
+      }
+    },
+    "lib/core/gorouter/main_shell.dart": {
+      "hash": "dbe16172",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 10,
+          "lineEnd": 17,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "MainShellScreen": 1,
+        "override": 1,
+        "HistoryBackscope": 1,
+        "navigationShell": 3,
+        "child": 1,
+        "Scaffold": 1,
+        "body": 1
+      }
+    },
+    "lib/core/responsive_svg/responsive_svg.dart": {
+      "hash": "1696a2d3",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 23,
+          "lineEnd": 40,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "ResponsiveSvg": 1,
+        "BoxFit": 1,
+        "contain": 1,
+        "override": 1,
+        "width": 2,
+        "size": 2,
+        "height": 2,
+        "SizedBox": 1,
+        "effectiveWidth": 1,
+        "effectiveHeight": 1,
+        "child": 2,
+        "FittedBox": 1,
+        "fit": 2,
+        "VectorGraphic": 1,
+        "loader": 1,
+        "SvgLoaderCache": 1,
+        "get": 1,
+        "assetPath": 1,
+        "colorFilter": 2
+      }
+    },
+    "lib/core/responsive_svg/svg_loader_cache.dart": {
+      "hash": "ba762b7",
+      "functions": [
+        {
+          "name": "get",
+          "lineStart": 6,
+          "lineEnd": 7,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "clear",
+          "lineStart": 9,
+          "lineEnd": 9,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "_cache": 2,
+        "putIfAbsent": 1,
+        "assetPath": 2,
+        "AssetBytesLoader": 1,
+        "clear": 1
+      }
+    },
+    "lib/core/riverpod_weather/current_page_index_notifier.dart": {
+      "hash": "edc82054",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 4,
+          "lineEnd": 5,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "updatePageIndex",
+          "lineStart": 7,
+          "lineEnd": 9,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "override": 1,
+        "state": 1,
+        "index": 1
+      }
+    },
+    "lib/core/riverpod_weather/map_weather_code.dart": {
+      "hash": "b5db37ce",
+      "functions": [
+        {
+          "name": "getWeatherlyIconAsset",
+          "lineStart": 3,
+          "lineEnd": 44,
+          "complexity": 6,
+          "hasDocComment": false
+        },
+        {
+          "name": "getWeatherlyName",
+          "lineStart": 46,
+          "lineEnd": 89,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "weatherCode": 2,
+        "isDay": 5,
+        "WeatherIcons": 15,
+        "clearSkySun": 1,
+        "clearSkyMoon": 1,
+        "rainSun": 2,
+        "rainMoon": 2,
+        "cloudsSun": 2,
+        "cloudsMoon": 2,
+        "clouds": 1,
+        "drizzle": 1,
+        "snow": 1,
+        "thunderstorm": 1,
+        "fog": 1
+      }
+    },
+    "lib/core/riverpod_weather/weather_converter.dart": {
+      "hash": "47779a11",
+      "functions": [
+        {
+          "name": "celsiusToFahrenheit",
+          "lineStart": 3,
+          "lineEnd": 3,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "kmhToMs",
+          "lineStart": 6,
+          "lineEnd": 6,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "kmhToFts",
+          "lineStart": 7,
+          "lineEnd": 7,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "kmhToMph",
+          "lineStart": 8,
+          "lineEnd": 8,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "kmhToKnots",
+          "lineStart": 9,
+          "lineEnd": 9,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "hpaToMmHg",
+          "lineStart": 12,
+          "lineEnd": 12,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "hpaToInHg",
+          "lineStart": 13,
+          "lineEnd": 13,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "metersToKm",
+          "lineStart": 16,
+          "lineEnd": 16,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "c": 1,
+        "kmh": 4,
+        "hpa": 2,
+        "m": 1
+      }
+    },
+    "lib/core/riverpod_weather/weather_model.dart": {
+      "hash": "24f67ac6",
+      "functions": [],
+      "refs": {
+        "WeatherModel": 3,
+        "weatherJson": 3,
+        "aqiJson": 1,
+        "aqiHourlyList": 3,
+        "isNotEmpty": 2,
+        "toInt": 7,
+        "hourly": 5,
+        "from": 2,
+        "i": 13,
+        "times": 2,
+        "length": 2,
+        "hourlyList": 2,
+        "add": 2,
+        "HourlyWeather": 2,
+        "time": 1,
+        "temp": 1,
+        "temps": 1,
+        "toDouble": 9,
+        "weatherCode": 3,
+        "codes": 2,
+        "isDay": 2,
+        "isDaysList": 2,
+        "daily": 7,
+        "dates": 2,
+        "dailyList": 2,
+        "DailyWeather": 2,
+        "date": 1,
+        "maxTemp": 1,
+        "maxTemps": 1,
+        "minTemp": 1,
+        "minTemps": 1,
+        "cityName": 2,
+        "lat": 2,
+        "lon": 2,
+        "currentTemp": 1,
+        "current": 9,
+        "apparentTemp": 1,
+        "humidity": 1,
+        "windSpeed": 1,
+        "uvIndex": 1,
+        "visibility": 1,
+        "pressure": 1,
+        "usAqi": 1,
+        "currentAqi": 1,
+        "sunrise": 1,
+        "sunset": 1,
+        "hourlyForecast": 1,
+        "dailyForecast": 1
+      }
+    },
+    "lib/core/riverpod_weather/weather_provider.dart": {
+      "hash": "ffc850cc",
+      "functions": [],
+      "refs": {
+        "FutureProvider": 1,
+        "Future": 1,
+        "delayed": 1,
+        "seconds": 1,
+        "mockWeatherList": 1
+      }
+    },
+    "lib/core/riverpod_weather/weather_repository.dart": {
+      "hash": "4a288178",
+      "functions": [],
+      "refs": {
+        "WeatherRepository": 1
+      }
+    },
+    "lib/main.dart": {
+      "hash": "af8bd6e4",
+      "functions": [
+        {
+          "name": "main",
+          "lineStart": 6,
+          "lineEnd": 19,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 24,
+          "lineEnd": 49,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "WidgetsFlutterBinding": 2,
+        "ensureInitialized": 2,
+        "FlutterNativeSplash": 1,
+        "preserve": 1,
+        "widgetsBinding": 2,
+        "runApp": 1,
+        "child": 1,
+        "Application": 2,
+        "override": 1,
+        "Color": 1,
+        "MaterialApp": 1,
+        "router": 2,
+        "debugShowCheckedModeBanner": 1,
+        "title": 1,
+        "theme": 1,
+        "ThemeData": 2,
+        "fontFamily": 2,
+        "defaultFontFamily": 2,
+        "primarySwatch": 1,
+        "Colors": 2,
+        "blue": 2,
+        "colorScheme": 1,
+        "ColorScheme": 1,
+        "fromSeed": 1,
+        "seedColor": 1,
+        "onSurface": 1,
+        "defaultTextColor": 3,
+        "textTheme": 2,
+        "apply": 1,
+        "bodyColor": 1,
+        "displayColor": 1,
+        "routerConfig": 1,
+        "AppRouter": 1
+      }
+    },
+    "lib/screens/location_screen.dart": {
+      "hash": "7ee9a883",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 6,
+          "lineEnd": 9,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "LocationScreen": 1,
+        "override": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/screens/settings_screen.dart": {
+      "hash": "14edc3f7",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 6,
+          "lineEnd": 9,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "SettingsScreen": 1,
+        "override": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/screens/splash_screen.dart": {
+      "hash": "607b28",
+      "functions": [
+        {
+          "name": "createState",
+          "lineStart": 11,
+          "lineEnd": 12,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "initState",
+          "lineStart": 16,
+          "lineEnd": 20,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "_initialize",
+          "lineStart": 22,
+          "lineEnd": 33,
+          "complexity": 2,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 35,
+          "lineEnd": 41,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "SplashScreen": 1,
+        "override": 3,
+        "_SplashScreenState": 1,
+        "initState": 1,
+        "_initialize": 1,
+        "FlutterNativeSplash": 1,
+        "remove": 1,
+        "Future": 2,
+        "wait": 1,
+        "ref": 1,
+        "read": 1,
+        "weatherListProvider": 1,
+        "future": 1,
+        "delayed": 1,
+        "milliseconds": 1,
+        "mounted": 1,
+        "context": 1,
+        "go": 1,
+        "Scaffold": 1,
+        "backgroundColor": 1,
+        "Color": 1,
+        "body": 1,
+        "Center": 1,
+        "child": 1,
+        "WeatherlyAnimation": 1,
+        "width": 1,
+        "repeat": 1
+      }
+    },
+    "lib/screens/weatherly_screen.dart": {
+      "hash": "5bfbdad3",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 25,
+          "lineEnd": 26,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "setRefreshing",
+          "lineStart": 28,
+          "lineEnd": 30,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "createState",
+          "lineStart": 41,
+          "lineEnd": 42,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "dispose",
+          "lineStart": 48,
+          "lineEnd": 52,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 54,
+          "lineEnd": 235,
+          "complexity": 8,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "NotifierProvider": 2,
+        "CurrentPageIndexNotifier": 1,
+        "new": 2,
+        "override": 4,
+        "state": 8,
+        "value": 1,
+        "IsRefreshingOverlayNotifier": 1,
+        "WeatherlyScreen": 1,
+        "_WeatherlyScreenState": 1,
+        "PageController": 1,
+        "initialPage": 1,
+        "_pageController": 3,
+        "dispose": 2,
+        "ref": 7,
+        "watch": 3,
+        "weatherListProvider": 2,
+        "currentPageIndexProvider": 2,
+        "isRefreshingOverlayProvider": 3,
+        "Scaffold": 1,
+        "backgroundColor": 2,
+        "body": 2,
+        "Stack": 1,
+        "children": 3,
+        "weatherAsync": 1,
+        "when": 1,
+        "loading": 1,
+        "child": 9,
+        "CircularProgressIndicator": 1,
+        "error": 2,
+        "Center": 1,
+        "Text": 2,
+        "data": 1,
+        "citiesWeather": 5,
+        "isEmpty": 1,
+        "currentIndex": 3,
+        "NestedScrollView": 1,
+        "headerSliverBuilder": 1,
+        "WeatherSliverAppBar": 1,
+        "cityName": 5,
+        "currentCity": 1,
+        "onLocationPressed": 1,
+        "onSettingPressed": 1,
+        "PageView": 1,
+        "builder": 2,
+        "controller": 1,
+        "itemCount": 1,
+        "length": 2,
+        "onPageChanged": 1,
+        "read": 3,
+        "notifier": 3,
+        "updatePageIndex": 1,
+        "index": 4,
+        "itemBuilder": 1,
+        "EasyRefresh": 1,
+        "header": 1,
+        "BuilderHeader": 1,
+        "triggerOffset": 1,
+        "clamping": 1,
+        "processedDuration": 1,
+        "Duration": 1,
+        "zero": 1,
+        "position": 1,
+        "IndicatorPosition": 1,
+        "above": 1,
+        "isRefreshingOverlay": 4,
+        "mode": 4,
+        "IndicatorMode": 4,
+        "processing": 1,
+        "ready": 1,
+        "processed": 1,
+        "offset": 3,
+        "clamp": 1,
+        "progress": 1,
+        "math": 1,
+        "pi": 1,
+        "SafeArea": 2,
+        "top": 3,
+        "bottom": 1,
+        "Container": 1,
+        "width": 2,
+        "double": 1,
+        "infinity": 1,
+        "height": 3,
+        "alignment": 1,
+        "Alignment": 1,
+        "topCenter": 1,
+        "padding": 1,
+        "EdgeInsets": 1,
+        "only": 1,
+        "Row": 1,
+        "mainAxisAlignment": 1,
+        "MainAxisAlignment": 1,
+        "center": 2,
+        "crossAxisAlignment": 1,
+        "CrossAxisAlignment": 1,
+        "Transform": 1,
+        "rotate": 1,
+        "angle": 2,
+        "ResponsiveSvg": 1,
+        "assetPath": 1,
+        "UtilityIcons": 1,
+        "circleArrowDown": 1,
+        "size": 1,
+        "colorFilter": 1,
+        "Color": 2,
+        "BlendMode": 1,
+        "srcIn": 1,
+        "armed": 1,
+        "style": 1,
+        "color": 1,
+        "fontSize": 1,
+        "fontWeight": 1,
+        "FontWeight": 1,
+        "w600": 1,
+        "onRefresh": 1,
+        "setRefreshing": 2,
+        "refresh": 1,
+        "future": 1,
+        "Future": 2,
+        "delayed": 2,
+        "seconds": 2,
+        "CustomScrollView": 1,
+        "key": 1,
+        "PageStorageKey": 1,
+        "weather": 5,
+        "slivers": 1,
+        "SliverToBoxAdapter": 1,
+        "Column": 1,
+        "spacing": 1,
+        "SizedBox": 1,
+        "CurrentWeatherHeaderWidget": 1,
+        "temperature": 1,
+        "currentTemp": 1,
+        "toInt": 1,
+        "weatherCode": 2,
+        "isDay": 2,
+        "pageController": 1,
+        "totalCities": 1,
+        "HourlyForecastCardWidget": 1,
+        "DailyForecastCardWidget": 1,
+        "AirQualityCardWidget": 1,
+        "WeatherDetailsGridWidget": 1,
+        "SunCycleCardWidget": 1,
+        "IgnorePointer": 1,
+        "ignoring": 1,
+        "LoadingOverlay": 1
+      }
+    },
+    "lib/services/open-meteo_fetching_data.dart": {
+      "hash": "f0c6cdd",
+      "functions": [],
+      "refs": {}
+    },
+    "lib/widgets/air_quality_card_widget.dart": {
+      "hash": "84973b83",
+      "functions": [
+        {
+          "name": "createState",
+          "lineStart": 6,
+          "lineEnd": 7,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 11,
+          "lineEnd": 14,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "AirQualityCardWidget": 1,
+        "override": 2,
+        "_AirQualityCardWidgetState": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/widgets/current_weather_header_widget.dart": {
+      "hash": "57fc8971",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 29,
+          "lineEnd": 109,
+          "complexity": 3,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "CurrentWeatherHeaderWidget": 1,
+        "override": 1,
+        "Column": 4,
+        "mainAxisAlignment": 3,
+        "MainAxisAlignment": 3,
+        "center": 2,
+        "spacing": 3,
+        "children": 5,
+        "Image": 1,
+        "image": 1,
+        "AssetImage": 1,
+        "getWeatherlyIconAsset": 1,
+        "weatherCode": 2,
+        "isDay": 1,
+        "width": 2,
+        "height": 1,
+        "fit": 1,
+        "BoxFit": 1,
+        "contain": 1,
+        "Row": 1,
+        "Text": 3,
+        "temperature": 1,
+        "toString": 1,
+        "style": 3,
+        "TextStyle": 3,
+        "fontSize": 3,
+        "mainAxisSize": 1,
+        "MainAxisSize": 1,
+        "max": 1,
+        "spaceBetween": 1,
+        "crossAxisAlignment": 1,
+        "CrossAxisAlignment": 1,
+        "start": 1,
+        "ClipOval": 1,
+        "child": 4,
+        "ResponsiveSvg": 1,
+        "assetPath": 1,
+        "UtilityIcons": 1,
+        "degree": 1,
+        "size": 2,
+        "getWeatherlyName": 1,
+        "cityName": 1,
+        "AnimatedBuilder": 1,
+        "animation": 1,
+        "pageController": 4,
+        "builder": 1,
+        "hasClients": 1,
+        "position": 1,
+        "haveDimensions": 1,
+        "page": 2,
+        "index": 3,
+        "toDouble": 2,
+        "MediaQuery": 1,
+        "of": 1,
+        "context": 1,
+        "screenWidth": 1,
+        "Transform": 1,
+        "translate": 1,
+        "offset": 1,
+        "Offset": 1,
+        "dx": 1,
+        "CityPageIndicator": 1,
+        "itemCount": 1,
+        "totalCities": 1,
+        "currentIndex": 2
+      }
+    },
+    "lib/widgets/daily_forecast_card_widget.dart": {
+      "hash": "1eadb5b9",
+      "functions": [
+        {
+          "name": "createState",
+          "lineStart": 6,
+          "lineEnd": 8,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 12,
+          "lineEnd": 15,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "DailyForecastCardWidget": 1,
+        "override": 2,
+        "_DailyForecastCardWidgetState": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/widgets/hourly_forecast_card_widget.dart": {
+      "hash": "26d339c1",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 6,
+          "lineEnd": 9,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "HourlyForecastCardWidget": 1,
+        "override": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/widgets/loading_overlay.dart": {
+      "hash": "fe532fdd",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 9,
+          "lineEnd": 26,
+          "complexity": 2,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "LoadingOverlay": 1,
+        "override": 1,
+        "AnimatedOpacity": 1,
+        "duration": 1,
+        "seconds": 1,
+        "opacity": 1,
+        "isRefreshingOverlay": 1,
+        "child": 2,
+        "Container": 1,
+        "width": 2,
+        "double": 2,
+        "infinity": 2,
+        "height": 2,
+        "color": 1,
+        "Column": 1,
+        "mainAxisAlignment": 1,
+        "MainAxisAlignment": 1,
+        "center": 2,
+        "crossAxisAlignment": 1,
+        "CrossAxisAlignment": 1,
+        "children": 1,
+        "WeatherlyAnimation": 1,
+        "repeat": 1
+      }
+    },
+    "lib/widgets/sun_cycle_card_widget.dart": {
+      "hash": "e14e4d9b",
+      "functions": [
+        {
+          "name": "createState",
+          "lineStart": 6,
+          "lineEnd": 7,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 11,
+          "lineEnd": 14,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "SunCycleCardWidget": 1,
+        "override": 2,
+        "_SunCycleCardWidgetState": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/widgets/weather_details_grid_widget.dart": {
+      "hash": "cc0428e1",
+      "functions": [
+        {
+          "name": "createState",
+          "lineStart": 6,
+          "lineEnd": 8,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 12,
+          "lineEnd": 15,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "WeatherDetailsGridWidget": 1,
+        "override": 2,
+        "_WeatherDetailsGridWidgetState": 1,
+        "Container": 1,
+        "child": 1
+      }
+    },
+    "lib/widgets/widgets_components/city_page_indicator.dart": {
+      "hash": "8dd34f00",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 17,
+          "lineEnd": 34,
+          "complexity": 3,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "CityPageIndicator": 1,
+        "override": 1,
+        "itemCount": 2,
+        "Row": 1,
+        "spacing": 1,
+        "mainAxisAlignment": 1,
+        "MainAxisAlignment": 1,
+        "center": 1,
+        "mainAxisSize": 1,
+        "MainAxisSize": 1,
+        "min": 1,
+        "children": 1,
+        "List": 1,
+        "generate": 1,
+        "index": 1,
+        "currentIndex": 1,
+        "ResponsiveSvg": 1,
+        "assetPath": 1,
+        "UtilityIcons": 1,
+        "location2": 1,
+        "size": 1
+      }
+    },
+    "lib/widgets/widgets_components/dot.dart": {
+      "hash": "e8eead1c",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 6,
+          "lineEnd": 16,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "Dot": 1,
+        "override": 1,
+        "Container": 1,
+        "width": 1,
+        "height": 1,
+        "decoration": 1,
+        "BoxDecoration": 1,
+        "shape": 1,
+        "BoxShape": 1,
+        "circle": 1,
+        "color": 1,
+        "Color": 1
+      }
+    },
+    "lib/widgets/widgets_components/weather_sliver_app_bar.dart": {
+      "hash": "c979d4cd",
+      "functions": [
+        {
+          "name": "build",
+          "lineStart": 19,
+          "lineEnd": 31,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "maxExtent",
+          "lineStart": 49,
+          "lineEnd": 50,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "minExtent",
+          "lineStart": 52,
+          "lineEnd": 53,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 55,
+          "lineEnd": 142,
+          "complexity": 4,
+          "hasDocComment": false
+        },
+        {
+          "name": "shouldRebuild",
+          "lineStart": 144,
+          "lineEnd": 148,
+          "complexity": 2,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "WeatherSliverAppBar": 1,
+        "override": 5,
+        "SliverPersistentHeader": 1,
+        "pinned": 1,
+        "delegate": 1,
+        "_WeatherSliverAppBarDelegate": 2,
+        "cityName": 5,
+        "backgroundColor": 5,
+        "onLocationPressed": 3,
+        "onSettingPressed": 3,
+        "statusBarHeight": 3,
+        "MediaQuery": 1,
+        "of": 1,
+        "context": 1,
+        "padding": 2,
+        "top": 1,
+        "kToolbarHeight": 3,
+        "shrinkOffset": 1,
+        "overlapsContent": 1,
+        "isScrolled": 1,
+        "Material": 1,
+        "color": 3,
+        "elevation": 1,
+        "child": 9,
+        "SafeArea": 1,
+        "bottom": 2,
+        "Stack": 1,
+        "children": 2,
+        "SizedBox": 1,
+        "height": 4,
+        "Padding": 1,
+        "horizontal": 1,
+        "Row": 1,
+        "Expanded": 1,
+        "AnimatedOpacity": 1,
+        "duration": 3,
+        "milliseconds": 3,
+        "opacity": 1,
+        "progress": 3,
+        "AnimatedSlide": 1,
+        "offset": 1,
+        "Offset": 2,
+        "zero": 1,
+        "Text": 1,
+        "style": 1,
+        "Color": 2,
+        "fontSize": 1,
+        "fontWeight": 1,
+        "FontWeight": 1,
+        "bold": 1,
+        "maxLines": 1,
+        "overflow": 1,
+        "TextOverflow": 1,
+        "ellipsis": 1,
+        "IconButton": 2,
+        "icon": 2,
+        "VectorGraphic": 2,
+        "loader": 2,
+        "AssetBytesLoader": 2,
+        "UtilityIcons": 2,
+        "location2": 1,
+        "width": 2,
+        "onPressed": 2,
+        "settings": 1,
+        "Positioned": 1,
+        "left": 1,
+        "right": 1,
+        "AnimatedFractionallySizedBox": 1,
+        "widthFactor": 1,
+        "alignment": 1,
+        "Alignment": 1,
+        "centerLeft": 1,
+        "Container": 1,
+        "oldDelegate": 2
+      }
+    },
+    "lib/widgets/widgets_components/weatherly_animation.dart": {
+      "hash": "59bc7807",
+      "functions": [
+        {
+          "name": "createState",
+          "lineStart": 15,
+          "lineEnd": 16,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "initState",
+          "lineStart": 35,
+          "lineEnd": 48,
+          "complexity": 2,
+          "hasDocComment": false
+        },
+        {
+          "name": "didUpdateWidget",
+          "lineStart": 50,
+          "lineEnd": 61,
+          "complexity": 3,
+          "hasDocComment": false
+        },
+        {
+          "name": "dispose",
+          "lineStart": 63,
+          "lineEnd": 67,
+          "complexity": 1,
+          "hasDocComment": false
+        },
+        {
+          "name": "build",
+          "lineStart": 69,
+          "lineEnd": 129,
+          "complexity": 1,
+          "hasDocComment": false
+        }
+      ],
+      "refs": {
+        "WeatherlyAnimation": 1,
+        "override": 5,
+        "_WeatherlyAnimationState": 1,
+        "_LetterConfig": 10,
+        "Color": 9,
+        "initState": 1,
+        "_controller": 7,
+        "AnimationController": 1,
+        "duration": 1,
+        "milliseconds": 1,
+        "vsync": 1,
+        "widget": 5,
+        "repeat": 6,
+        "forward": 2,
+        "didUpdateWidget": 1,
+        "oldWidget": 2,
+        "reverse": 1,
+        "dispose": 2,
+        "width": 2,
+        "height": 2,
+        "targetWidth": 2,
+        "targetHeight": 2,
+        "SizedBox": 1,
+        "child": 5,
+        "FittedBox": 1,
+        "fit": 1,
+        "BoxFit": 1,
+        "contain": 1,
+        "Row": 1,
+        "mainAxisSize": 1,
+        "MainAxisSize": 1,
+        "min": 1,
+        "crossAxisAlignment": 1,
+        "CrossAxisAlignment": 1,
+        "baseline": 1,
+        "textBaseline": 1,
+        "TextBaseline": 1,
+        "alphabetic": 1,
+        "children": 1,
+        "List": 1,
+        "generate": 1,
+        "_letter": 5,
+        "length": 3,
+        "index": 4,
+        "CurvedAnimation": 1,
+        "parent": 1,
+        "curve": 2,
+        "Interval": 1,
+        "startNormalized": 1,
+        "endNormalized": 1,
+        "Curves": 1,
+        "easeOutCubic": 1,
+        "AnimatedBuilder": 1,
+        "animation": 1,
+        "letterAnimation": 2,
+        "builder": 1,
+        "value": 3,
+        "clamp": 1,
+        "Opacity": 2,
+        "opacity": 4,
+        "Transform": 1,
+        "translate": 1,
+        "offset": 1,
+        "Offset": 1,
+        "translateX": 1,
+        "Text": 1,
+        "char": 1,
+        "style": 1,
+        "TextStyle": 1,
+        "fontSize": 1,
+        "targetFontSize": 1,
+        "fontWeight": 1,
+        "FontWeight": 1,
+        "w400": 1,
+        "color": 2,
+        "letterSpacing": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+2026-08-11T06:02:44.120Z  [CACHE]  HIT  flutter.releases
+2026-08-11T06:02:44.121Z  [INFO ]  Scan started — 4 packages
+2026-08-11T06:02:44.121Z  [INFO ]  [1/4] cupertino_icons
+2026-08-11T06:02:44.121Z  [INFO ]  Known issue: active
+2026-08-11T06:02:44.122Z  [CACHE]  HIT  pub.info.cupertino_icons
+2026-08-11T06:02:44.122Z  [CACHE]  HIT  pub.metrics.cupertino_icons
+2026-08-11T06:02:44.122Z  [CACHE]  HIT  pub.publisher.cupertino_icons
+2026-08-11T06:02:44.122Z  [CACHE]  MISS pub.reverseDeps.cupertino_icons
+2026-08-11T06:02:44.122Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Acupertino_icons
+2026-08-11T06:02:44.125Z  [INFO ]  [2/4] flutter_lints
+2026-08-11T06:02:44.125Z  [INFO ]  Known issue: active
+2026-08-11T06:02:44.125Z  [CACHE]  HIT  pub.info.flutter_lints
+2026-08-11T06:02:44.125Z  [CACHE]  MISS pub.metrics.flutter_lints
+2026-08-11T06:02:44.125Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints/metrics
+2026-08-11T06:02:44.127Z  [API  ]  GET https://pub.dev/api/packages/flutter_lints/score
+2026-08-11T06:02:44.129Z  [CACHE]  HIT  pub.publisher.flutter_lints
+2026-08-11T06:02:44.129Z  [CACHE]  MISS pub.reverseDeps.flutter_lints
+2026-08-11T06:02:44.129Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_lints
+2026-08-11T06:02:44.131Z  [INFO ]  [3/4] flutter_skill
+2026-08-11T06:02:44.131Z  [CACHE]  HIT  pub.info.flutter_skill
+2026-08-11T06:02:44.131Z  [CACHE]  HIT  pub.metrics.flutter_skill
+2026-08-11T06:02:44.131Z  [CACHE]  HIT  pub.publisher.flutter_skill
+2026-08-11T06:02:44.131Z  [CACHE]  MISS pub.reverseDeps.flutter_skill
+2026-08-11T06:02:44.131Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_skill
+2026-08-11T06:02:44.133Z  [INFO ]  [4/4] saropa_lints
+2026-08-11T06:02:44.133Z  [CACHE]  HIT  pub.info.saropa_lints
+2026-08-11T06:02:44.133Z  [CACHE]  HIT  pub.metrics.saropa_lints
+2026-08-11T06:02:44.133Z  [CACHE]  HIT  pub.publisher.saropa_lints
+2026-08-11T06:02:44.133Z  [CACHE]  MISS pub.reverseDeps.saropa_lints
+2026-08-11T06:02:44.133Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Asaropa_lints
+2026-08-11T06:02:44.566Z  [API  ]  200 OK (439ms)
+2026-08-11T06:02:44.588Z  [API  ]  200 OK (463ms)
+2026-08-11T06:02:44.618Z  [API  ]  200 OK (496ms)
+2026-08-11T06:02:44.660Z  [CACHE]  HIT  gh.flutter.packages
+2026-08-11T06:02:44.661Z  [CACHE]  HIT  pub.archiveSize.cupertino_icons
+2026-08-11T06:02:44.661Z  [CACHE]  HIT  pub.tarball.oijvck
+2026-08-11T06:02:44.664Z  [SCORE]  cupertino_icons → 55.5 (stable) [rv=36 eg=50 pop=100 pt=-5 pq=10]
+2026-08-11T06:02:44.680Z  [API  ]  200 OK (549ms)
+2026-08-11T06:02:44.699Z  [API  ]  200 OK (570ms)
+2026-08-11T06:02:44.747Z  [CACHE]  HIT  gh.ai-dashboad.flutter-skill
+2026-08-11T06:02:44.747Z  [CACHE]  HIT  pub.archiveSize.flutter_skill
+2026-08-11T06:02:44.747Z  [CACHE]  HIT  pub.tarball.65am2
+2026-08-11T06:02:44.752Z  [SCORE]  flutter_skill → 41.9 (stable) [rv=23.5 eg=60.55555555555556 pop=47.2 pt=-5 pq=8.75]
+2026-08-11T06:02:44.754Z  [CACHE]  HIT  gh.flutter.packages
+2026-08-11T06:02:44.754Z  [CACHE]  HIT  pub.archiveSize.flutter_lints
+2026-08-11T06:02:44.756Z  [CACHE]  HIT  pub.tarball.z7ll8h
+2026-08-11T06:02:45.181Z  [API  ]  200 OK (1048ms)
+2026-08-11T06:02:45.222Z  [CACHE]  HIT  gh.saropa.saropa_lints
+2026-08-11T06:02:45.222Z  [CACHE]  HIT  pub.archiveSize.saropa_lints
+2026-08-11T06:02:45.222Z  [CACHE]  MISS pub.tarball.ey41w9
+2026-08-11T06:02:45.222Z  [API  ]  GET https://pub.dev/api/archives/saropa_lints-14.5.6.tar.gz
+2026-08-11T06:02:45.784Z  [API  ]  200 OK (562ms)
+2026-08-11T06:02:45.822Z  [SCORE]  flutter_lints → 55.5 (stable) [rv=36 eg=50 pop=100 pt=-5 pq=10]
+2026-08-11T06:02:49.849Z  [SCORE]  saropa_lints → 66.3 (stable) [rv=50.5 eg=67.5 pop=46.955 pt=-5 pq=9.375]
+2026-08-11T06:02:50.539Z  [ERROR]  Blocker analysis skipped — CLI commands failed — pub outdated: Command failed: dart pub outdated --json --transitive
+Cannot specify both `--json` and `--transitive`
+The json report always includes transitive dependencies.
+
+Usage: dart pub outdated [options]
+-h, --help                         Print this usage information.
+    --[no-]dependency-overrides    Show resolutions with `dependency_overrides`.
+                                   (defaults to on)
+    --[no-]dev-dependencies        Take dev dependencies into account.
+                                   (defaults to on)
+    --json                         Output the results using a json format.
+    --[no-]prereleases             Include prereleases in latest version.
+    --[no-]show-all                Include dependencies that are already
+                                   fulfilling --mode.
+    --[no-]transitive              Show transitive dependencies.
+                                   (defaults to on)
+-C, --directory=<dir>              Run this in the directory <dir>.
+
+Run "dart help" to see global options.
+See https://dart.dev/tools/pub/cmd/pub-outdated for detailed documentation.
+
+2026-08-11T06:02:50.786Z  [CACHE]  HIT  pub.archiveSize.lints
+2026-08-11T06:02:50.786Z  [CACHE]  HIT  pub.archiveSize.flutter
+2026-08-11T06:02:50.786Z  [CACHE]  HIT  pub.archiveSize.characters
+2026-08-11T06:02:50.786Z  [CACHE]  MISS pub.archiveSize.collection
+2026-08-11T06:02:50.786Z  [API  ]  GET https://pub.dev/api/packages/collection
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.material_color_utilities
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.meta
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.vector_math
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.sky_engine
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.vm_service
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.http
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.async
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.http_parser
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.source_span
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.path
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.term_glyph
+2026-08-11T06:02:50.788Z  [CACHE]  HIT  pub.archiveSize.string_scanner
+2026-08-11T06:02:50.788Z  [CACHE]  MISS pub.archiveSize.typed_data
+2026-08-11T06:02:50.788Z  [API  ]  GET https://pub.dev/api/packages/typed_data
+2026-08-11T06:02:50.790Z  [CACHE]  MISS pub.archiveSize.web
+2026-08-11T06:02:50.790Z  [API  ]  GET https://pub.dev/api/packages/web
+2026-08-11T06:02:50.792Z  [CACHE]  HIT  pub.archiveSize.logging
+2026-08-11T06:02:50.792Z  [CACHE]  MISS pub.archiveSize.crypto
+2026-08-11T06:02:50.792Z  [API  ]  GET https://pub.dev/api/packages/crypto
+2026-08-11T06:02:50.793Z  [CACHE]  HIT  pub.archiveSize.analysis_server_plugin
+2026-08-11T06:02:50.793Z  [CACHE]  HIT  pub.archiveSize.analyzer
+2026-08-11T06:02:50.793Z  [CACHE]  HIT  pub.archiveSize._fe_analyzer_shared
+2026-08-11T06:02:50.793Z  [CACHE]  HIT  pub.archiveSize.convert
+2026-08-11T06:02:50.793Z  [CACHE]  HIT  pub.archiveSize.glob
+2026-08-11T06:02:50.793Z  [CACHE]  MISS pub.archiveSize.file
+2026-08-11T06:02:50.793Z  [API  ]  GET https://pub.dev/api/packages/file
+2026-08-11T06:02:50.795Z  [CACHE]  HIT  pub.archiveSize.package_config
+2026-08-11T06:02:50.795Z  [CACHE]  HIT  pub.archiveSize.pub_semver
+2026-08-11T06:02:50.795Z  [CACHE]  MISS pub.archiveSize.watcher
+2026-08-11T06:02:50.795Z  [API  ]  GET https://pub.dev/api/packages/watcher
+2026-08-11T06:02:50.796Z  [CACHE]  HIT  pub.archiveSize.yaml
+2026-08-11T06:02:50.796Z  [CACHE]  MISS pub.archiveSize.analyzer_plugin
+2026-08-11T06:02:50.796Z  [API  ]  GET https://pub.dev/api/packages/analyzer_plugin
+2026-08-11T06:02:50.798Z  [CACHE]  HIT  pub.archiveSize.dart_style
+2026-08-11T06:02:50.798Z  [CACHE]  MISS pub.archiveSize.args
+2026-08-11T06:02:50.798Z  [API  ]  GET https://pub.dev/api/packages/args
+2026-08-11T06:02:50.800Z  [CACHE]  MISS pub.archiveSize.yaml_edit
+2026-08-11T06:02:50.800Z  [API  ]  GET https://pub.dev/api/packages/yaml_edit
+2026-08-11T06:02:51.058Z  [API  ]  200 OK (272ms)
+2026-08-11T06:02:51.155Z  [API  ]  HEAD https://pub.dev/api/archives/collection-1.19.1.tar.gz
+2026-08-11T06:02:51.217Z  [API  ]  200 OK (62ms)
+2026-08-11T06:02:51.262Z  [API  ]  200 OK (470ms)
+2026-08-11T06:02:51.263Z  [API  ]  200 OK (468ms)
+2026-08-11T06:02:51.302Z  [API  ]  200 OK (502ms)
+2026-08-11T06:02:51.306Z  [API  ]  200 OK (510ms)
+2026-08-11T06:02:51.308Z  [API  ]  HEAD https://pub.dev/api/archives/watcher-1.2.1.tar.gz
+2026-08-11T06:02:51.322Z  [API  ]  HEAD https://pub.dev/api/archives/crypto-3.0.7.tar.gz
+2026-08-11T06:02:51.325Z  [API  ]  200 OK (537ms)
+2026-08-11T06:02:51.358Z  [API  ]  200 OK (568ms)
+2026-08-11T06:02:51.358Z  [API  ]  200 OK (560ms)
+2026-08-11T06:02:51.359Z  [API  ]  200 OK (566ms)
+2026-08-11T06:02:51.361Z  [API  ]  HEAD https://pub.dev/api/archives/yaml_edit-2.2.4.tar.gz
+2026-08-11T06:02:51.365Z  [API  ]  HEAD https://pub.dev/api/archives/analyzer_plugin-0.14.14.tar.gz
+2026-08-11T06:02:51.439Z  [API  ]  HEAD https://pub.dev/api/archives/typed_data-1.4.0.tar.gz
+2026-08-11T06:02:51.442Z  [API  ]  HEAD https://pub.dev/api/archives/web-1.1.1.tar.gz
+2026-08-11T06:02:51.444Z  [API  ]  HEAD https://pub.dev/api/archives/file-7.0.1.tar.gz
+2026-08-11T06:02:51.447Z  [API  ]  HEAD https://pub.dev/api/archives/args-2.7.0.tar.gz
+2026-08-11T06:02:51.460Z  [API  ]  200 OK (138ms)
+2026-08-11T06:02:51.461Z  [API  ]  200 OK (100ms)
+2026-08-11T06:02:51.506Z  [API  ]  200 OK (67ms)
+2026-08-11T06:02:51.507Z  [API  ]  200 OK (65ms)
+2026-08-11T06:02:51.508Z  [API  ]  200 OK (64ms)
+2026-08-11T06:02:51.508Z  [API  ]  200 OK (61ms)
+2026-08-11T06:02:51.616Z  [API  ]  200 OK (308ms)
+2026-08-11T06:02:51.666Z  [API  ]  200 OK (301ms)
+2026-08-11T06:02:51.718Z  [INFO ]  Dep graph: 4 direct, 34 transitive, 0 overrides
+2026-08-11T06:02:51.719Z  [CACHE]  HIT  osv.vulns.cupertino_icons.1.0.9
+2026-08-11T06:02:51.719Z  [CACHE]  HIT  osv.vulns.flutter_lints.6.0.0
+2026-08-11T06:02:51.719Z  [CACHE]  MISS osv.vulns.flutter_skill.0.9.36
+2026-08-11T06:02:51.719Z  [CACHE]  MISS osv.vulns.saropa_lints.14.0.2
+2026-08-11T06:02:51.719Z  [API  ]  POST https://api.osv.dev/v1/querybatch
+2026-08-11T06:02:51.721Z  [CACHE]  MISS ghsa.vulns.cupertino_icons.1.0.9
+2026-08-11T06:02:51.721Z  [CACHE]  MISS ghsa.vulns.flutter_lints.6.0.0
+2026-08-11T06:02:51.721Z  [CACHE]  MISS ghsa.vulns.flutter_skill.0.9.36
+2026-08-11T06:02:51.721Z  [CACHE]  MISS ghsa.vulns.saropa_lints.14.0.2
+2026-08-11T06:02:51.722Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=cupertino_icons&affects=1.0.9&per_page=100
+2026-08-11T06:02:51.724Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=flutter_lints&affects=6.0.0&per_page=100
+2026-08-11T06:02:51.726Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=flutter_skill&affects=0.9.36&per_page=100
+2026-08-11T06:02:51.729Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=saropa_lints&affects=14.0.2&per_page=100
+2026-08-11T06:02:52.108Z  [API  ]  403 rate limit exceeded (384ms)
+2026-08-11T06:02:52.108Z  [ERROR]  GitHub Advisory query failed for flutter_lints: 403
+2026-08-11T06:02:52.109Z  [API  ]  403 rate limit exceeded (383ms)
+2026-08-11T06:02:52.109Z  [ERROR]  GitHub Advisory query failed for flutter_skill: 403
+2026-08-11T06:02:52.113Z  [API  ]  403 rate limit exceeded (384ms)
+2026-08-11T06:02:52.113Z  [ERROR]  GitHub Advisory query failed for saropa_lints: 403
+2026-08-11T06:02:52.134Z  [API  ]  403 rate limit exceeded (412ms)
+2026-08-11T06:02:52.134Z  [ERROR]  GitHub Advisory query failed for cupertino_icons: 403
+2026-08-11T06:02:52.262Z  [API  ]  200 OK (543ms)
+2026-08-11T06:02:53.041Z  [INFO ]  Scan complete — 8921ms — vibrant:0 stable:4 outdated:0 abandoned:0 eol:0
