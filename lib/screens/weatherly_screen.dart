@@ -201,10 +201,7 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
                                   children: [
                                     SizedBox(height: 25),
                                     CurrentWeatherHeaderWidget(
-                                      cityName: weather.cityName,
-                                      temperature: weather.currentTemp.toInt(),
-                                      weatherCode: weather.weatherCode,
-                                      isDay: weather.isDay,
+                                      weather: weather,
                                       pageController: _pageController,
                                       index: index,
                                       totalCities: citiesWeather.length,
