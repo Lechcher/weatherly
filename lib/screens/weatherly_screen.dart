@@ -191,28 +191,34 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
                             child: SafeArea(
                               top: false,
 
-                              child: Column(
-                                spacing: 30,
-                                children: [
-                                  SizedBox(height: 25),
-                                  CurrentWeatherHeaderWidget(
-                                    cityName: weather.cityName,
-                                    temperature: weather.currentTemp.toInt(),
-                                    weatherCode: weather.weatherCode,
-                                    isDay: weather.isDay,
-                                    pageController: _pageController,
-                                    index: index,
-                                    totalCities: citiesWeather.length,
-                                    currentIndex: currentIndex,
-                                  ),
+                              child: Container(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 20,
+                                ),
 
-                                  HourlyForecastCardWidget(),
-                                  DailyForecastCardWidget(),
-                                  AirQualityCardWidget(),
-                                  WeatherDetailsGridWidget(),
-                                  SunCycleCardWidget(),
-                                  const SizedBox(height: 30),
-                                ],
+                                child: Column(
+                                  spacing: 30,
+                                  children: [
+                                    SizedBox(height: 25),
+                                    CurrentWeatherHeaderWidget(
+                                      cityName: weather.cityName,
+                                      temperature: weather.currentTemp.toInt(),
+                                      weatherCode: weather.weatherCode,
+                                      isDay: weather.isDay,
+                                      pageController: _pageController,
+                                      index: index,
+                                      totalCities: citiesWeather.length,
+                                      currentIndex: currentIndex,
+                                    ),
+
+                                    HourlyForecastCardWidget(weather: weather),
+                                    DailyForecastCardWidget(),
+                                    AirQualityCardWidget(),
+                                    WeatherDetailsGridWidget(),
+                                    SunCycleCardWidget(),
+                                    const SizedBox(height: 30),
+                                  ],
+                                ),
                               ),
                             ),
                           ),

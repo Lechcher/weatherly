@@ -120,12 +120,13 @@ class HourlyWeather {
   final String time;
   final double temp;
   final int weatherCode;
+  final bool isDay;
 
   HourlyWeather({
     required this.time,
     required this.temp,
     required this.weatherCode,
-    required bool isDay,
+    required this.isDay,
   });
 }
 

@@ -1,9 +1,5 @@
 {
-    "saropaLints.enabled": false,
     "svg.preview.background": "editor",
-    "saropaLints.packageVibrancy.suppressedPackages": [
-        "vector_graphics"
-    ],
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
@@ -18,5 +14,4 @@
         "**/dependency_overrides/**/build/**": true,
         "**/dependency_overrides/**/.dart_tool/**": true
     },
-    "saropaLints.lspServer.enabled": true
 }
