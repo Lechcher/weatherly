@@ -1,22 +1,74 @@
 import 'package:weatherly/constants/images.dart';
 
-String getWeatherlyIconAsset(int weatherCode, bool isDay) {
+String getWeatherlyIconAsset(int weatherCode, bool isDay, bool isSmall) {
   switch (weatherCode) {
     case 0:
-      return isDay ? WeatherIcons.clearSkySun : WeatherIcons.clearSkyMoon;
+      if (isSmall) {
+        if (isDay) {
+          return WeatherIconsSmall.clearSkySun;
+        } else {
+          return WeatherIconsSmall.clearSkyMoon;
+        }
+      } else {
+        if (isDay) {
+          return WeatherIcons.clearSkySun;
+        } else {
+          return WeatherIcons.clearSkyMoon;
+        }
+      }
 
     case 1:
-      return isDay ? WeatherIcons.rainSun : WeatherIcons.rainMoon;
+      if (isSmall) {
+        if (isDay) {
+          return WeatherIconsSmall.rainSun;
+        } else {
+          return WeatherIconsSmall.rainMoon;
+        }
+      } else {
+        if (isDay) {
+          return WeatherIcons.rainSun;
+        } else {
+          return WeatherIcons.rainMoon;
+        }
+      }
     case 2:
-      return isDay ? WeatherIcons.cloudsSun : WeatherIcons.cloudsMoon;
+      if (isSmall) {
+        if (isDay) {
+          return WeatherIconsSmall.cloudsSun;
+        } else {
+          return WeatherIconsSmall.cloudsMoon;
+        }
+      } else {
+        if (isDay) {
+          return WeatherIcons.cloudsSun;
+        } else {
+          return WeatherIcons.cloudsMoon;
+        }
+      }
     case 3:
-      return WeatherIcons.clouds;
+      if (isSmall) {
+        return WeatherIconsSmall.clouds;
+      } else {
+        return WeatherIcons.clouds;
+      }
 
     case 51:
     case 53:
     case 61:
     case 80:
-      return isDay ? WeatherIcons.rainSun : WeatherIcons.rainMoon;
+      if (isSmall) {
+        if (isDay) {
+          return WeatherIconsSmall.rainSun;
+        } else {
+          return WeatherIconsSmall.rainMoon;
+        }
+      } else {
+        if (isDay) {
+          return WeatherIcons.rainSun;
+        } else {
+          return WeatherIcons.rainMoon;
+        }
+      }
 
     case 63:
     case 65:
@@ -39,7 +91,19 @@ String getWeatherlyIconAsset(int weatherCode, bool isDay) {
       return WeatherIcons.fog;
 
     default:
-      return isDay ? WeatherIcons.cloudsSun : WeatherIcons.cloudsMoon;
+      if (isSmall) {
+        if (isDay) {
+          return WeatherIconsSmall.cloudsSun;
+        } else {
+          return WeatherIconsSmall.cloudsMoon;
+        }
+      } else {
+        if (isDay) {
+          return WeatherIcons.cloudsSun;
+        } else {
+          return WeatherIcons.cloudsMoon;
+        }
+      }
   }
 }
 

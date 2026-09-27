@@ -63,7 +63,11 @@ List<HourlyDisplayItem> prepareHourlyDisplayItems(WeatherModel weather) {
       HourlyDisplayItem(
         time: hourly.time,
         tempText: "${hourly.temp.toInt()}",
-        iconAsset: getWeatherlyIconAsset(hourly.weatherCode, hourly.isDay),
+        iconAsset: getWeatherlyIconAsset(
+          hourly.weatherCode,
+          hourly.isDay,
+          true,
+        ),
       ),
     );
   }

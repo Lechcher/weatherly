@@ -31,7 +31,7 @@ class CurrentWeatherHeaderWidget extends StatelessWidget {
       children: [
         Image(
           image: AssetImage(
-            getWeatherlyIconAsset(weather.weatherCode, weather.isDay),
+            getWeatherlyIconAsset(weather.weatherCode, weather.isDay, false),
           ),
           width: 256,
           height: 256,
@@ -46,7 +46,7 @@ class CurrentWeatherHeaderWidget extends StatelessWidget {
 
               children: [
                 Text(
-                  weather.currentTemp.toString(),
+                  weather.currentTemp.toInt().toString(),
                   style: TextStyle(fontSize: 72),
                 ),
                 Column(

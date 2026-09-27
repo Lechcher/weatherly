@@ -1,14 +1,3 @@
-abstract class WeatherDetailIcons {
-  static const String _weatherDetailIcon = 'assets/icons/weather_detail_icons';
-
-  static const String air = "$_weatherDetailIcon/Air.svg";
-  static const String airPressure = "$_weatherDetailIcon/Air_pressure.svg";
-  static const String temperature = "$_weatherDetailIcon/Temperature.svg";
-  static const String humidity = "$_weatherDetailIcon/Humidity.svg";
-  static const String wind = "$_weatherDetailIcon/Wind.svg";
-  static const String vision = "$_weatherDetailIcon/Vision.svg";
-}
-
 abstract class UtilityIcons {
   static const String _utilityIcon = 'assets/icons/utility_icons';
 

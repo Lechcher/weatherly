@@ -79,6 +79,8 @@ flutter:
   assets:
     - assets/images/
     - assets/images/weather_icons/
+    - assets/images/weather_icons_small/
+    - assets/images/weather_detail_icons/
     - assets/images/logo/
 
     - assets/animations/Weatherly.lottie
@@ -90,8 +92,6 @@ flutter:
     - path: assets/icons/utility_icons/
       transformers:
         - package: vector_graphics_compiler
-    - path: assets/icons/weather_detail_icons/
-      transformers:
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

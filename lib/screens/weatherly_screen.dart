@@ -15,6 +15,7 @@ import 'package:weatherly/widgets/sun_cycle_card_widget.dart';
 import 'package:weatherly/widgets/weather_details_grid_widget.dart';
 import 'package:weatherly/widgets/loading_overlay.dart';
 import 'package:weatherly/widgets/widgets_components/weather_sliver_app_bar.dart';
+import 'package:weatherly/widgets/widgets_components/weatherly_text.dart';
 
 final currentPageIndexProvider =
     NotifierProvider<CurrentPageIndexNotifier, int>(
@@ -209,11 +210,12 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
                                     ),
 
                                     HourlyForecastCardWidget(weather: weather),
-                                    DailyForecastCardWidget(),
-                                    AirQualityCardWidget(),
-                                    WeatherDetailsGridWidget(),
-                                    SunCycleCardWidget(),
-                                    const SizedBox(height: 30),
+                                    DailyForecastCardWidget(weather: weather),
+                                    AirQualityCardWidget(aqi: weather.usAqi),
+                                    WeatherDetailsGridWidget(weather: weather),
+                                    SunCycleCardWidget(weather: weather),
+                                    WeatherlyText(),
+                                    const SizedBox(height: 50),
                                   ],
                                 ),
                               ),

@@ -1,5 +1,5 @@
-String getAqiStatus(int api) {
-  switch (api) {
+String getAqiStatus(int aqi) {
+  switch (aqi) {
     case >= 0 && < 50:
       return "Good";
     case >= 50 && < 100:

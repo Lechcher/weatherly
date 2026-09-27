@@ -12,7 +12,7 @@ class HourlyForecastCardWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final displayItems = prepareHourlyDisplayItems(weather);
+    final displayHourlyItems = prepareHourlyDisplayItems(weather);
 
     final todayForecast = weather.dailyForecast.isNotEmpty
         ? weather.dailyForecast.first
@@ -67,8 +67,8 @@ class HourlyForecastCardWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
 
-              children: List.generate(displayItems.length, (index) {
-                final item = displayItems[index];
+              children: List.generate(displayHourlyItems.length, (index) {
+                final item = displayHourlyItems[index];
 
                 return Column(
                   spacing: 10,
@@ -76,7 +76,11 @@ class HourlyForecastCardWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      formatTime(item.time, index),
+                      formatTime(
+                        item.time,
+                        formatWidgetType.hourly_forecast_card_widget,
+                        index,
+                      ),
                       style: const TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
