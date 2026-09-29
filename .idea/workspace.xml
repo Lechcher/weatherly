@@ -4,30 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15919dd0-88ee-4dde-86b9-f90fe2efe89a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="15919dd0-88ee-4dde-86b9-f90fe2efe89a" name="Changes" comment="feat: implement weather card widgets and update icon assets&#10;&#10;- implement UI for AirQualityCardWidget, DailyForecastCardWidget, SunCycleCardWidget, and WeatherDetailsGridWidget&#10;- replace SVG detail icons with PNG image assets and update assets in pubspec.yaml&#10;- add small icon asset support to getWeatherlyIconAsset&#10;- refactor formatTime utility to accept a widget format type enum&#10;- pass weather data from WeatherlyScreen to child card widgets&#10;- fix parameter typo in getAqiStatus helper function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/weather_detail_icons/air.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/weather_detail_icons/air_pressure.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/weather_detail_icons/humidity.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/weather_detail_icons/temperature.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/weather_detail_icons/vision.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/weather_detail_icons/wind.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants/icons.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/icons.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/images.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/riverpod_weather/format_time.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/riverpod_weather/format_time.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/riverpod_weather/get_aqi_status.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/riverpod_weather/get_aqi_status.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/riverpod_weather/map_weather_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/riverpod_weather/map_weather_code.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/gorouter/history_backscope.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/gorouter/history_backscope.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/gorouter/main_shell.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/gorouter/main_shell.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/location_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/location_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/settings_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/settings_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/weatherly_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/weatherly_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/hourly_forecast_card_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/hourly_forecast_card_utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/air_quality_card_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/air_quality_card_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/current_weather_header_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/current_weather_header_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/daily_forecast_card_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/daily_forecast_card_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/hourly_forecast_card_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/hourly_forecast_card_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/sun_cycle_card_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/sun_cycle_card_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/weather_details_grid_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/weather_details_grid_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weatherly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weatherly.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Lechcher"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lechcher/weatherly.git",
+    "accountId": "1bd84897-b78e-4d1d-bd6f-2e84a897b3b5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
@@ -90,7 +87,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -102,6 +99,15 @@
       <option name="presentableId" value="Default" />
       <updated>1790502261281</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: implement weather card widgets and update icon assets&#10;&#10;- implement UI for AirQualityCardWidget, DailyForecastCardWidget, SunCycleCardWidget, and WeatherDetailsGridWidget&#10;- replace SVG detail icons with PNG image assets and update assets in pubspec.yaml&#10;- add small icon asset support to getWeatherlyIconAsset&#10;- refactor formatTime utility to accept a widget format type enum&#10;- pass weather data from WeatherlyScreen to child card widgets&#10;- fix parameter typo in getAqiStatus helper function">
+      <option name="closed" value="true" />
+      <created>1790505389395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790505389395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -109,5 +115,21 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor(current_weather_header): use single WeatherModel instead of separate props&#10;&#10;simplify parent widget invocation by replacing four individual parameters with a single WeatherModel instance&#10;update internal widget references to pull data from the passed model instead of separate fields&#10;add required WeatherModel import to the widget file" />
+    <MESSAGE value="feat: implement weather card widgets and update icon assets&#10;&#10;- implement UI for AirQualityCardWidget, DailyForecastCardWidget, SunCycleCardWidget, and WeatherDetailsGridWidget&#10;- replace SVG detail icons with PNG image assets and update assets in pubspec.yaml&#10;- add small icon asset support to getWeatherlyIconAsset&#10;- refactor formatTime utility to accept a widget format type enum&#10;- pass weather data from WeatherlyScreen to child card widgets&#10;- fix parameter typo in getAqiStatus helper function" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement weather card widgets and update icon assets&#10;&#10;- implement UI for AirQualityCardWidget, DailyForecastCardWidget, SunCycleCardWidget, and WeatherDetailsGridWidget&#10;- replace SVG detail icons with PNG image assets and update assets in pubspec.yaml&#10;- add small icon asset support to getWeatherlyIconAsset&#10;- refactor formatTime utility to accept a widget format type enum&#10;- pass weather data from WeatherlyScreen to child card widgets&#10;- fix parameter typo in getAqiStatus helper function" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/app_router.dart</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:go_router/go_router.dart';
-import 'package:weatherly/core/riverpod_weather/weather_provider.dart';
+import 'package:weatherly/core/riverpod_weather/weather_provider_with_mock_data.dart';
 import 'package:weatherly/widgets/widgets_components/weatherly_animation.dart';
 
 class SplashScreen extends ConsumerStatefulWidget {
@@ -23,7 +23,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
     FlutterNativeSplash.remove();
 
     await Future.wait([
-      ref.read(weatherListProvider.future),
+      ref.read(weatherListProviderWithMockData.future),
       Future.delayed(const Duration(milliseconds: 2500)),
     ]);
 

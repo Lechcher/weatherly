@@ -1,18 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:weatherly/core/gorouter/history_backscope.dart';
 
 class MainShellScreen extends StatelessWidget {
-  final StatefulNavigationShell navigationShell;
+  final Widget child;
 
-  const MainShellScreen({super.key, required this.navigationShell});
+  const MainShellScreen({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {
-    return HistoryBackscope(
-      navigationShell: navigationShell,
-
-      child: Scaffold(body: navigationShell),
+    return Scaffold(
+      body: child,
     );
   }
 }

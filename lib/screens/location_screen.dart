@@ -5,6 +5,9 @@ class LocationScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: null);
+    return Scaffold(
+      backgroundColor: const Color(0xFFE0F2FE),
+      body: const Center(child: Text('Thử vuốt mép trái sang phải xem sao')),
+    );
   }
 }

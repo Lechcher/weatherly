@@ -4,10 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:weatherly/app_router.dart';
 
 void main() {
-  // FlutterError.onError = (FlutterErrorDetails details) {
-  //   FlutterError.presentError(details);
-  // };
-
   final WidgetsBinding widgetsBinding =
       WidgetsFlutterBinding.ensureInitialized();
 

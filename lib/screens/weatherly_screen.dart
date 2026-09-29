@@ -3,10 +3,11 @@ import 'dart:math' as math;
 import 'package:easy_refresh/easy_refresh.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:weatherly/constants/icons.dart';
 import 'package:weatherly/core/responsive_svg/responsive_svg.dart';
 import 'package:weatherly/core/riverpod_weather/current_page_index_notifier.dart';
-import 'package:weatherly/core/riverpod_weather/weather_provider.dart';
+import 'package:weatherly/core/riverpod_weather/weather_provider_with_mock_data.dart';
 import 'package:weatherly/widgets/air_quality_card_widget.dart';
 import 'package:weatherly/widgets/current_weather_header_widget.dart';
 import 'package:weatherly/widgets/daily_forecast_card_widget.dart';
@@ -54,12 +55,12 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final weatherAsync = ref.watch(weatherListProvider);
+    final weatherAsync = ref.watch(weatherListProviderWithMockData);
     final currentIndex = ref.watch(currentPageIndexProvider);
     final isRefreshingOverlay = ref.watch(isRefreshingOverlayProvider);
 
     return Scaffold(
-      backgroundColor: const Color(0xffe0f2fe),
+      backgroundColor: const Color(0xFFE0F2FE),
       body: Stack(
         children: [
           weatherAsync.when(
@@ -78,8 +79,12 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
                     WeatherSliverAppBar(
                       cityName: currentCity.cityName,
                       backgroundColor: const Color(0xffe0f2fe),
-                      onLocationPressed: () {},
-                      onSettingPressed: () {},
+                      onLocationPressed: () {
+                        context.push("/weatherly/location");
+                      },
+                      onSettingPressed: () {
+                        context.push("/weatherly/settings");
+                      },
                     ),
                   ];
                 },
@@ -172,7 +177,7 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
 
                         try {
                           final _ = await ref.refresh(
-                            weatherListProvider.future,
+                            weatherListProviderWithMockData.future,
                           );
                         } finally {
                           await Future.delayed(const Duration(seconds: 1));

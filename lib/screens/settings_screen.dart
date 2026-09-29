@@ -5,6 +5,10 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: null);
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(title: const Text('Settings')),
+      body: const Center(child: Text('Thử vuốt mép trái sang phải xem sao')),
+    );
   }
 }

@@ -4,6 +4,7 @@ import 'package:weatherly/screens/location_screen.dart';
 import 'package:weatherly/screens/settings_screen.dart';
 import 'package:weatherly/screens/splash_screen.dart';
 import 'package:weatherly/screens/weatherly_screen.dart';
+import 'package:weatherly/widgets/widgets_components/build_platform_page.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -14,34 +15,30 @@ class AppRouter {
         builder: (context, state) => const SplashScreen(),
       ),
 
-      StatefulShellRoute.indexedStack(
-        builder: (context, state, navigationShell) {
-          return MainShellScreen(navigationShell: navigationShell);
+      ShellRoute(
+        builder: (context, state, child) {
+          return MainShellScreen(child: child);
         },
-        branches: [
-          StatefulShellBranch(
+        routes: [
+          GoRoute(
+            path: '/weatherly',
+            builder: (context, state) => const WeatherlyScreen(),
             routes: [
               GoRoute(
-                path: '/weatherly',
-                builder: (context, state) => const WeatherlyScreen(),
+                path: 'location',
+                pageBuilder: (context, state) => buildPlatformPage(
+                  context: context,
+                  state: state,
+                  child: const LocationScreen(),
+                ),
               ),
-            ],
-          ),
-
-          StatefulShellBranch(
-            routes: [
               GoRoute(
-                path: '/location',
-                builder: (context, state) => const LocationScreen(),
-              ),
-            ],
-          ),
-
-          StatefulShellBranch(
-            routes: [
-              GoRoute(
-                path: '/settings',
-                builder: (context, state) => const SettingsScreen(),
+                path: 'settings',
+                pageBuilder: (context, state) => buildPlatformPage(
+                  context: context,
+                  state: state,
+                  child: const SettingsScreen(),
+                ),
               ),
             ],
           ),
