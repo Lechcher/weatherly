@@ -15,7 +15,7 @@ import 'package:weatherly/widgets/hourly_forecast_card_widget.dart';
 import 'package:weatherly/widgets/sun_cycle_card_widget.dart';
 import 'package:weatherly/widgets/weather_details_grid_widget.dart';
 import 'package:weatherly/widgets/loading_overlay.dart';
-import 'package:weatherly/widgets/widgets_components/weather_sliver_app_bar.dart';
+import 'package:weatherly/widgets/widgets_components/weatherly_sliver_app_bar.dart';
 import 'package:weatherly/widgets/widgets_components/weatherly_text.dart';
 
 final currentPageIndexProvider =
@@ -76,7 +76,7 @@ class _WeatherlyScreenState extends ConsumerState<WeatherlyScreen> {
               return NestedScrollView(
                 headerSliverBuilder: (context, innerBoxIsScrolled) {
                   return [
-                    WeatherSliverAppBar(
+                    WeatherlySliverAppBar(
                       cityName: currentCity.cityName,
                       backgroundColor: const Color(0xffe0f2fe),
                       onLocationPressed: () {

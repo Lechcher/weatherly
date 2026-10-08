@@ -55,7 +55,7 @@ class WeatherModel {
         : 0;
 
     List<HourlyWeather> hourlyList = [];
-    if (hourly != null) {
+    if (hourly.isNotEmpty) {
       List<String> times = List<String>.from(hourly['time'] ?? []);
       List<dynamic> temps = hourly['temperature_2m'] ?? [];
       List<dynamic> codes = hourly['weather_code'] ?? [];
@@ -76,7 +76,7 @@ class WeatherModel {
     }
 
     List<DailyWeather> dailyList = [];
-    if (daily != null) {
+    if (daily.isNotEmpty) {
       List<String> dates = List<String>.from(daily['time'] ?? []);
       List<dynamic> maxTemps = daily['temperature_2m_max'] ?? [];
       List<dynamic> minTemps = daily['temperature_2m_min'] ?? [];
@@ -98,18 +98,23 @@ class WeatherModel {
       cityName: cityName,
       lat: lat,
       lon: lon,
-      currentTemp: (current['temperature_2m'] as num).toDouble(),
-      weatherCode: (current['weather_code'] as num).toInt(),
-      apparentTemp: (current['apparent_temperature'] as num).toDouble(),
-      humidity: (current['relative_humidity_2m'] as num).toInt(),
-      windSpeed: (current['wind_speed_10m'] as num).toDouble(),
-      uvIndex: (current['uv_index'] as num).toDouble(),
-      visibility: ((current['visibility'] as num).toDouble()) / 1000, // m -> km
-      pressure: (current['surface_pressure'] as num).toDouble(),
+      currentTemp: ((current['temperature_2m'] ?? 0) as num).toDouble(),
+      weatherCode: ((current['weather_code'] ?? 0) as num).toInt(),
+      apparentTemp: ((current['apparent_temperature'] ?? 0) as num).toDouble(),
+      humidity: ((current['relative_humidity_2m'] ?? 0) as num).toInt(),
+      windSpeed: ((current['wind_speed_10m'] ?? 0) as num).toDouble(),
+      uvIndex: ((current['uv_index'] ?? 0) as num).toDouble(),
+      visibility:
+          (((current['visibility'] ?? 0) as num).toDouble()) / 1000, // m -> km
+      pressure: ((current['surface_pressure'] ?? 0) as num).toDouble(),
       usAqi: currentAqi,
-      sunrise: daily['sunrise']?[0] ?? '',
-      sunset: daily['sunset']?[0] ?? '',
-      isDay: (current['is_day'] as num).toInt() == 1,
+      sunrise: (daily['sunrise'] != null && daily['sunrise'].isNotEmpty)
+          ? daily['sunrise'][0]
+          : '',
+      sunset: (daily['sunset'] != null && daily['sunset'].isNotEmpty)
+          ? daily['sunset'][0]
+          : '',
+      isDay: ((current['is_day'] ?? 1) as num).toInt() == 1,
       hourlyForecast: hourlyList,
       dailyForecast: dailyList,
     );

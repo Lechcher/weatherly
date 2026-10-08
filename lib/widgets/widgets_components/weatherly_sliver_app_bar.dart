@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:vector_graphics/vector_graphics_compat.dart';
 import 'package:weatherly/constants/icons.dart';
 
-class WeatherSliverAppBar extends StatelessWidget {
+class WeatherlySliverAppBar extends StatelessWidget {
   final String cityName;
   final Color backgroundColor;
   final VoidCallback onLocationPressed;
   final VoidCallback onSettingPressed;
 
-  const WeatherSliverAppBar({
+  const WeatherlySliverAppBar({
     super.key,
     required this.cityName,
     required this.backgroundColor,
@@ -20,7 +20,7 @@ class WeatherSliverAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverPersistentHeader(
       pinned: true,
-      delegate: _WeatherSliverAppBarDelegate(
+      delegate: _WeatherlySliverAppBarDelegate(
         cityName: cityName,
         backgroundColor: backgroundColor,
         onLocationPressed: onLocationPressed,
@@ -31,16 +31,16 @@ class WeatherSliverAppBar extends StatelessWidget {
   }
 }
 
-class _WeatherSliverAppBarDelegate extends SliverPersistentHeaderDelegate {
+class _WeatherlySliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   final String cityName;
   final Color backgroundColor;
   final VoidCallback onLocationPressed;
   final VoidCallback onSettingPressed;
   final double statusBarHeight;
 
-  _WeatherSliverAppBarDelegate({
+  _WeatherlySliverAppBarDelegate({
     required this.cityName,
-    required this.backgroundColor,
+    this.backgroundColor = Colors.transparent,
     required this.onLocationPressed,
     required this.onSettingPressed,
     required this.statusBarHeight,
@@ -142,7 +142,7 @@ class _WeatherSliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   }
 
   @override
-  bool shouldRebuild(covariant _WeatherSliverAppBarDelegate oldDelegate) {
+  bool shouldRebuild(covariant _WeatherlySliverAppBarDelegate oldDelegate) {
     return cityName != oldDelegate.cityName ||
         backgroundColor != oldDelegate.backgroundColor;
   }

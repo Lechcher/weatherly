@@ -4,6 +4,7 @@ abstract class UtilityIcons {
   static const String location1 = "$_utilityIcon/location_1.svg";
   static const String location2 = "$_utilityIcon/location_2.svg";
   static const String location3 = "$_utilityIcon/location_3.svg";
+  static const String locationEdit = "$_utilityIcon/location_edit.svg";
   static const String delete = "$_utilityIcon/delete.svg";
   static const String settings = "$_utilityIcon/settings.svg";
   static const String eraser = "$_utilityIcon/eraser.svg";
@@ -12,5 +13,8 @@ abstract class UtilityIcons {
   static const String select = "$_utilityIcon/select.svg";
   static const String selectChecked = "$_utilityIcon/select_checked.svg";
   static const String degree = "$_utilityIcon/degree.svg";
-  static const String circleArrowDown = "$_utilityIcon/circle-arrow-down.svg";
+  static const String circleArrowDown = "$_utilityIcon/circle_arrow_down.svg";
+  static const String chevronLeft = "$_utilityIcon/chevron_left.svg";
+  static const String chevronsDownUp = "$_utilityIcon/chevrons_down_up.svg";
+  static const String chevronsUpDown = "$_utilityIcon/chevrons_up_down.svg";
 }
