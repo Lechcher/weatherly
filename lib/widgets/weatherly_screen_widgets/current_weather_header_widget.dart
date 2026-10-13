@@ -3,7 +3,7 @@ import 'package:weatherly/constants/icons.dart';
 import 'package:weatherly/core/responsive_svg/responsive_svg.dart';
 import 'package:weatherly/core/riverpod_weather/map_weather_code.dart';
 import 'package:weatherly/core/riverpod_weather/weather_model.dart';
-import 'package:weatherly/widgets/widgets_components/city_page_indicator.dart';
+import 'package:weatherly/widgets/city_page_indicator.dart';
 
 class CurrentWeatherHeaderWidget extends StatelessWidget {
   final WeatherModel weather;

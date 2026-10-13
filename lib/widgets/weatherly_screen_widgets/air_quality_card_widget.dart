@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weatherly/core/riverpod_weather/get_aqi_advice.dart';
 import 'package:weatherly/core/riverpod_weather/get_aqi_status.dart';
-import 'package:weatherly/widgets/widgets_components/aqi_progress_bar.dart';
+import 'package:weatherly/widgets/aqi_progress_bar.dart';
 
 class AirQualityCardWidget extends StatelessWidget {
   final int aqi;

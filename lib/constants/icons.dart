@@ -11,6 +11,7 @@ abstract class UtilityIcons {
   static const String plus = "$_utilityIcon/plus.svg";
   static const String search = "$_utilityIcon/search.svg";
   static const String select = "$_utilityIcon/select.svg";
+  static const String circleX = "$_utilityIcon/circle_x.svg";
   static const String selectChecked = "$_utilityIcon/select_checked.svg";
   static const String degree = "$_utilityIcon/degree.svg";
   static const String circleArrowDown = "$_utilityIcon/circle_arrow_down.svg";

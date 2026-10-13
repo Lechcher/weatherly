@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:weatherly/constants/icons.dart';
 import 'package:weatherly/core/responsive_svg/responsive_svg.dart';
-import 'package:weatherly/widgets/widgets_components/dot.dart';
+import 'package:weatherly/widgets/dot.dart';
 
 class CityPageIndicator extends ConsumerWidget {
   final int itemCount;

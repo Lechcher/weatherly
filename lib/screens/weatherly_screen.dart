@@ -8,15 +8,15 @@ import 'package:weatherly/constants/icons.dart';
 import 'package:weatherly/core/responsive_svg/responsive_svg.dart';
 import 'package:weatherly/core/riverpod_weather/current_page_index_notifier.dart';
 import 'package:weatherly/core/riverpod_weather/weather_provider_with_mock_data.dart';
-import 'package:weatherly/widgets/air_quality_card_widget.dart';
-import 'package:weatherly/widgets/current_weather_header_widget.dart';
-import 'package:weatherly/widgets/daily_forecast_card_widget.dart';
-import 'package:weatherly/widgets/hourly_forecast_card_widget.dart';
-import 'package:weatherly/widgets/sun_cycle_card_widget.dart';
-import 'package:weatherly/widgets/weather_details_grid_widget.dart';
-import 'package:weatherly/widgets/loading_overlay.dart';
-import 'package:weatherly/widgets/widgets_components/weatherly_sliver_app_bar.dart';
-import 'package:weatherly/widgets/widgets_components/weatherly_text.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/air_quality_card_widget.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/current_weather_header_widget.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/daily_forecast_card_widget.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/hourly_forecast_card_widget.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/sun_cycle_card_widget.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/weather_details_grid_widget.dart';
+import 'package:weatherly/widgets/weatherly_screen_widgets/loading_overlay.dart';
+import 'package:weatherly/widgets/weatherly_sliver_app_bar.dart';
+import 'package:weatherly/widgets/weatherly_text.dart';
 
 final currentPageIndexProvider =
     NotifierProvider<CurrentPageIndexNotifier, int>(

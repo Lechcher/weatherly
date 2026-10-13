@@ -1,11 +1,38 @@
 import 'package:flutter/material.dart';
+import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:weatherly/constants/datas.dart';
 import 'package:weatherly/constants/icons.dart';
-import 'package:weatherly/widgets/widgets_components/city_card_item.dart';
-import 'package:weatherly/widgets/widgets_components/sliver_app_bar.dart';
+import 'package:weatherly/widgets/add_city_modal_sheet.dart';
+import 'package:weatherly/widgets/city_card_item.dart';
+import 'package:weatherly/widgets/sliver_app_bar.dart';
 
-class LocationScreen extends StatelessWidget {
+class LocationScreen extends StatefulWidget {
   const LocationScreen({super.key});
+
+  State<LocationScreen> createState() => _LocationScreenState();
+}
+
+class _LocationScreenState extends State<LocationScreen> {
+  bool isEditMode = false;
+  final Set<String> selectCityNames = {};
+
+  void _toggleEditMode() {
+    setState(() {
+      isEditMode = !isEditMode;
+      if (!isEditMode) {
+        selectCityNames.clear();
+      }
+    });
+  }
+
+  void _showAddCityModal(BuildContext context) {
+    showMaterialModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      bounce: true,
+      builder: (context) => AddCityModalSheet(),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -18,8 +45,8 @@ class LocationScreen extends StatelessWidget {
               title: 'Manage cities',
               backgroundColor: const Color(0xFFE0F2FE),
               actionButton: HeaderSliverAppBarAction(
-                UtilityIcons.locationEdit,
-                () {},
+                isEditMode ? UtilityIcons.circleX : UtilityIcons.locationEdit,
+                () => _toggleEditMode(),
               ),
             ),
           ];

@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:go_router/go_router.dart';
 import 'package:weatherly/core/riverpod_weather/weather_provider_with_mock_data.dart';
-import 'package:weatherly/widgets/widgets_components/weatherly_animation.dart';
+import 'package:weatherly/widgets/weatherly_animation.dart';
 
 class SplashScreen extends ConsumerStatefulWidget {
   const SplashScreen({super.key});

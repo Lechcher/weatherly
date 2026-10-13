@@ -4,7 +4,7 @@ import 'package:weatherly/screens/location_screen.dart';
 import 'package:weatherly/screens/settings_screen.dart';
 import 'package:weatherly/screens/splash_screen.dart';
 import 'package:weatherly/screens/weatherly_screen.dart';
-import 'package:weatherly/widgets/widgets_components/build_platform_page.dart';
+import 'package:weatherly/widgets/build_platform_page.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weatherly/widgets/widgets_components/weatherly_animation.dart';
+import 'package:weatherly/widgets/weatherly_animation.dart';
 
 class LoadingOverlay extends StatelessWidget {
   final bool isRefreshingOverlay;
