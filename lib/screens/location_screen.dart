@@ -55,16 +55,17 @@ class _LocationScreenState extends State<LocationScreen> {
         body: CustomScrollView(
           slivers: [
             SliverToBoxAdapter(
-              child: Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: CityCardItem(
-                    weather: mockWeatherList[0],
-                    isCurrentLocation: true,
-                    isEditMode: false,
-                    isSelected: false,
+              child: Stack(
+                children: [
+                  ListView.separated(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    separatorBuilder: (_, __) => const SizedBox(height: 10),
+                    itemCount: mockWeatherList.length,
+                    itemBuilder: (context, index) {
+
+                    },
                   ),
-                ),
+                ],
               ),
             ),
           ],
